@@ -1,0 +1,32 @@
+# Driveways: candidates from the driveway classifier on the evening curb images, each reviewed by
+# the author (review round in each entry's note).
+# Curb labels in the curb-labeller format (`curb-occupancy serve <config>` -> curb.html).
+# latlon: zone ends at the curb (authoritative); axis_m: street-axis metres of run 'side_hingston' (information only).
+# Saved 2026-10-30T11:08:24.
+zones:
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4706225, -73.6280435], [45.4706431, -73.6280896]], "axis_m": [28.2, 32.5], "note": "review round3 (side_hingston_28)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4707048, -73.6282282], [45.4707197, -73.6282617]], "axis_m": [45.3, 48.4], "note": "review round3 (side_hingston_45)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4707843, -73.6284068], [45.4707935, -73.6284274]], "axis_m": [61.8, 63.7], "note": "review round4 (side_hingston_62)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4708322, -73.6285142], [45.4708452, -73.6285435]], "axis_m": [71.7, 74.4], "note": "review round3 (side_hingston_69)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4708871, -73.6286376], [45.4709007, -73.628668]], "axis_m": [83.1, 85.9], "note": "review round3 (side_hingston_82)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4709584, -73.6287976], [45.4709784, -73.6288425]], "axis_m": [97.9, 102.0], "note": "review round3 (side_hingston_97)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4710259, -73.6289492], [45.4710384, -73.6289773]], "axis_m": [111.9, 114.5], "note": "review round3 (side_hingston_110)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4710917, -73.6290969], [45.4711024, -73.629121]], "axis_m": [125.5, 127.8], "note": "review round3 (side_hingston_125)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4711469, -73.6292209], [45.4711638, -73.6292588]], "axis_m": [137.0, 140.5], "note": "review round3 (side_hingston_137)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4712396, -73.6294291], [45.471253, -73.6294591]], "axis_m": [156.2, 159.0], "note": "review round3 (side_hingston_155)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4713659, -73.6297126], [45.4713812, -73.629747]], "axis_m": [182.4, 185.6], "note": "review round3 (side_hingston_182)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4714555, -73.6299137], [45.4714676, -73.629941]], "axis_m": [201.0, 203.5], "note": "review round3 (side_hingston_197)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4715139, -73.6300449], [45.4715236, -73.6300667]], "axis_m": [213.1, 215.1], "note": "review round3 (side_hingston_210)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4715726, -73.6301768], [45.4716176, -73.6302774]], "axis_m": [225.3, 234.6], "note": "review round3 (side_hingston_225)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4719317, -73.6309799], [45.4719483, -73.6310172]], "axis_m": [299.6, 303.0], "note": "review round3 (side_hingston_298)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4720493, -73.6312445], [45.4720685, -73.6312878]], "axis_m": [324.0, 328.0], "note": "review round3 (side_hingston_324)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4721459, -73.631462], [45.4721667, -73.6315088]], "axis_m": [344.1, 348.4], "note": "review round3 (side_hingston_341)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4722337, -73.6316596], [45.472249, -73.6316941]], "axis_m": [362.3, 365.5], "note": "review round3 (side_hingston_361)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.472313, -73.6318382], [45.4723316, -73.6318801]], "axis_m": [378.8, 382.7], "note": "review round3 (side_hingston_379)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4724054, -73.6320462], [45.4724246, -73.6320895]], "axis_m": [398.0, 402.0], "note": "review round3 (side_hingston_398)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4724971, -73.6322528], [45.472516, -73.6322954]], "axis_m": [417.1, 421.0], "note": "review round3 (side_hingston_416)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.472588, -73.6324574], [45.4726036, -73.6324926]], "axis_m": [435.9, 439.2], "note": "review round3 (side_hingston_435)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4726811, -73.632667], [45.4727007, -73.6327112]], "axis_m": [455.3, 459.4], "note": "review round3 (side_hingston_455)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4727728, -73.6328734], [45.4727879, -73.6329075]], "axis_m": [474.4, 477.5], "note": "review round3 (side_hingston_473)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4728623, -73.6330749], [45.472878, -73.6331104]], "axis_m": [492.9, 496.2], "note": "review round3 (side_hingston_492)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4729449, -73.633261], [45.4729636, -73.633303]], "axis_m": [510.1, 514.0], "note": "review round3 (side_hingston_510)"}

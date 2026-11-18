@@ -1,0 +1,14 @@
+# 2026-11-15 daytime (GPS clock), GX014512: side streets in daylight for driveway labelling
+# (Madison only, no day pass before). Own configs (side_day/) so the evening and
+# night runs stay unchanged; driveway labels go to side/<street>_curb.yaml.
+video: GX014512.MP4
+osm_json: inputs/osm/terrebonne_full_2026-10-23.json   # (c) OSM, ODbL
+streets_dir: ../streets/side_day
+base: _base.yaml
+area: _area.yaml
+prefix: side_day_
+skip:                       # Terrebonne: its own config; Somerled and Monkland: arterials
+  - Rue de Terrebonne
+  - Avenue Somerled
+  - Avenue de Monkland
+grid_north_deg: -58         # NDG avenues run at ~122 / 302 deg true (OSM)

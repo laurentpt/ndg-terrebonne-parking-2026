@@ -1,0 +1,57 @@
+# Rue de Terrebonne, every pass of the study: the five dusk evenings of terrebonne_evening
+# (2026-10-23 to 10-29, layout reference) + four nights (2026-11-05, 11-10, 11-11, 11-12;
+# passes started 19:58-20:46 by GPS, full dark, shutter 1/60, ISO 6400). Night clips:
+# - GX014502 + GX024502 (11-05 19:58, 60 Mb/s): chaptered at 4 GB (the second chapter is
+#   1.2 s). The same night's 1/120 s trial pass (GX014500 + GX014501) is not used.
+# - GX014504 (11-10), GX014506 (11-11), GX014511 (11-12)
+# The road flow collapses in the dark: GPS speed.
+extends: terrebonne_evening.yaml
+name: terrebonne_night
+
+# Night passes do not register on the daylight strips (unlit background): 501 "registered" on
+# 11 windows (min_ok 10) and sat ~4 m off by the driveway check; the evening passes register
+# on 370-440. Night passes then fall back to GPS (DOP ~2 at night) + pooled occupancy shifts,
+# limited to +-5 m (+-15 locked 500 / 502 a car pitch off locally). Scores: notes 2026-11-06.
+layout:
+  register:
+    min_ok: 30
+    pooled_max_shift_m: 5.0
+
+clips:
+  - file: GX014484.MP4
+    direction: auto
+    note: "2026-10-23 17:17, out"
+  - file: GX014485.MP4
+    direction: auto
+    note: "2026-10-23 17:25, back"
+  - file: GX014486.MP4
+    direction: auto
+    note: "2026-10-26 17:39, out (second evening; sunset ~17:57, ISO 1100-2000)"
+  - file: GX014495.MP4
+    direction: auto
+    note: "2026-10-27 17:30 (third evening)"
+  - file: GX014497.MP4
+    direction: auto
+    note: "2026-10-28 17:44 (fourth evening)"
+  - file: GX014498.MP4
+    direction: auto
+    note: "2026-10-29 17:22 (fifth evening; shutter 1/240, ISO 2100-6400)"
+    camera: {speed: gps}
+  # 2026-11-05 19:48 / 19:54 GX014500 + GX014501 (1/120 s, one pass split around road work)
+  # removed (one pass per night; 502 = the same night at 1/60 s)
+  - file: [GX014502.MP4, GX024502.MP4]
+    direction: auto
+    note: "2026-11-05 19:58 night, 1/60 s, ISO 6400, way back (2 chapters)"
+    camera: {speed: gps}
+  - file: GX014504.MP4
+    direction: auto
+    note: "2026-11-10 20:17 second night, 1/60 s, ISO 6400 pinned, riding SW (7.7 min)"
+    camera: {speed: gps}
+  - file: GX014506.MP4
+    direction: auto
+    note: "2026-11-11 20:26 third night, 1/60 s, ISO 6400 pinned (7.5 min, after the side-street ride)"
+    camera: {speed: gps}
+  - file: GX014511.MP4
+    direction: auto
+    note: "2026-11-12 20:47 fourth night (late), 1/60 s, ISO 6400 pinned (7.3 min, after the side-street ride)"
+    camera: {speed: gps}

@@ -1,0 +1,32 @@
+# Driveways: candidates from the driveway classifier, each reviewed by the author: on the evening
+# passes (rounds 3 / 4 / 6) and on the daylight pass of 2026-11-12 (round 8); round in each entry's note.
+# Daylight labels are moved from the single daylight pass's GPS placement to the night runs' placement (shift
+# from the night passes' parked cars, see the note of each entry); reviewed labels are in the evening placement.
+# Curb labels in the curb-labeller format (`curb-occupancy serve <config>` -> curb.html).
+# latlon: zone ends at the curb (authoritative); axis_m: street-axis metres of run 'side_day_wilson' (information only).
+# Saved 2026-11-13T13:12:50.
+zones:
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4765255, -73.6300286], [45.4764936, -73.6299588]], "axis_m": [23.5, 30.0], "note": "classifier p=0.89, review round8: unsure, kept as proposed; day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4764126, -73.6297815], [45.476393, -73.6297385]], "axis_m": [46.5, 50.5], "note": "review round8 (side_day_wilson_54); day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4763096, -73.6295558], [45.4762875, -73.6295075]], "axis_m": [67.5, 72.0], "note": "review round8 (side_day_wilson_74); day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4762016, -73.6293194], [45.4761795, -73.629271]], "axis_m": [89.5, 94.0], "note": "review round8 (side_day_wilson_96); day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4760887, -73.6290722], [45.4760788, -73.6290507]], "axis_m": [112.5, 114.5], "note": "review round8 (side_day_wilson_120); day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4759856, -73.6288466], [45.4759635, -73.6287982]], "axis_m": [133.5, 138.0], "note": "review round8 (side_day_wilson_140); day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.475777, -73.6283899], [45.4757573, -73.6283469]], "axis_m": [176.0, 180.0], "note": "review round8 (side_day_wilson_183); day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.475669, -73.6281535], [45.4756469, -73.6281051]], "axis_m": [198.0, 202.5], "note": "review round8 (side_day_wilson_205); day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4752935, -73.6273243], [45.4752814, -73.6272973]], "axis_m": [275.0, 277.5], "note": "review round8 (side_day_wilson_282); day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4752312, -73.6271848], [45.4752094, -73.6271361]], "axis_m": [287.9, 292.4], "note": "review round3 (side_wilson_20)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4751465, -73.6269953], [45.4751176, -73.6269306]], "axis_m": [305.4, 311.4], "note": "review round3 (side_wilson_36)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4750645, -73.6268116], [45.4750385, -73.6267535]], "axis_m": [322.4, 327.8], "note": "review round3 (side_wilson_54)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4749702, -73.6266007], [45.4749514, -73.6265585]], "axis_m": [341.9, 345.8], "note": "review round3 (side_wilson_74)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4748833, -73.626406], [45.4748692, -73.6263746]], "axis_m": [359.9, 362.8], "note": "review round3 (side_wilson_92)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4747963, -73.6262113], [45.4747785, -73.6261715]], "axis_m": [377.9, 381.6], "note": "review round3 (side_wilson_110)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4747064, -73.6260101], [45.4746923, -73.6259785]], "axis_m": [396.5, 399.4], "note": "review round3 (side_wilson_128)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.474628, -73.6258346], [45.4746045, -73.6257821]], "axis_m": [412.7, 417.6], "note": "review round3 (side_wilson_144)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.47453, -73.6256153], [45.4745136, -73.6255786]], "axis_m": [433.0, 436.4], "note": "review round3 (side_wilson_164)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4745203, -73.6255937], [45.4745058, -73.6255612]], "axis_m": [435.0, 438.0], "note": "review round8 (side_day_wilson_442); day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4744363, -73.6254055], [45.4744116, -73.6253503]], "axis_m": [452.4, 457.5], "note": "review round3 (side_wilson_184)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4743748, -73.6252679], [45.4743501, -73.6252127]], "axis_m": [465.1, 470.2], "note": "review round3 (side_wilson_196)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4742623, -73.6250161], [45.4742454, -73.6249782]], "axis_m": [488.4, 491.9], "note": "review round3 (side_wilson_220)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4742521, -73.6249934], [45.4742425, -73.6249718]], "axis_m": [490.5, 492.5], "note": "review round8 (side_day_wilson_498); day pass GX014509, run side_day_wilson, moved -7.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4741801, -73.6248322], [45.4741222, -73.6247024]], "axis_m": [505.4, 517.4], "note": "review round3 (side_wilson_237)"}

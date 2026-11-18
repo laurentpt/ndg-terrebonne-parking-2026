@@ -1,0 +1,13 @@
+# Side streets in daylight (2026-11-12), merged: `curb-occupancy area config/streets/side_day/_area.yaml`
+# -> workdir/runs/side_streets_day/. Driveway-labelling passes (midday, outside the guideline
+# window): the occupancy numbers are not study results.
+name: side_streets_day
+title: Side streets around rue de Terrebonne, daylight (driveways)
+streets:
+  - mayfair.yaml
+  - king_edward.yaml
+  - prince_of_wales.yaml
+  - beaconsfield.yaml
+  - wilson.yaml
+  - melrose.yaml
+  - madison.yaml

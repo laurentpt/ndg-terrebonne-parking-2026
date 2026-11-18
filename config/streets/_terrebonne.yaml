@@ -1,0 +1,21 @@
+# Rue de Terrebonne (NDG) cross-section, shared by its configs (`extends`):
+# curb | bike lane | parking | ONE travel lane | bike lane | curb, the parking lane switching
+# curbs a few times along the street. Row A = right curb of the street axis (south side),
+# beside the forward rider's bike lane, imaged by the near plane riding forward and by the far
+# plane riding backward; row B = left curb (north side), mirrored; never both at once.
+extends: _camera.yaml
+street:
+  name: Rue de Terrebonne  # OSM name of the street
+  rows:
+    A: {curb: right, label: south side, plane: {forward: near, backward: far}}
+    B: {curb: left, label: north side, plane: {forward: far, backward: near}}
+  states: [[A], [B]]
+
+mosaic:
+  planes:                  # search band of each plane's depth, accepted ground-contact band (m)
+    near: {depth_m: [1.18, 2.95], decode_scale: 0.5, lateral_m: [0.8, 2.8]}
+    far: {depth_m: [4.13, 8.26], decode_scale: 1.0, lateral_m: [3.8, 8.0]}  # travel lane ends ~3.5 m
+
+count:
+  # depth band (m) of the travel lane in each plane's mosaic (labels gated-out boxes)
+  travel_lane_m: {near: [0.8, 3.8], far: [2.8, 5.0]}

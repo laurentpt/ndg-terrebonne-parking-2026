@@ -1,0 +1,22 @@
+# Driveways: candidates from the driveway classifier, each reviewed by the author: on the evening
+# passes (rounds 3 / 4 / 6) and on the daylight pass of 2026-11-12 (round 8); round in each entry's note.
+# Daylight labels are moved from the single daylight pass's GPS placement to the night runs' placement (shift
+# from the night passes' parked cars, see the note of each entry); reviewed labels are in the evening placement.
+# Curb labels in the curb-labeller format (`curb-occupancy serve <config>` -> curb.html).
+# latlon: zone ends at the curb (authoritative); axis_m: street-axis metres of run 'side_day_prince_of_wales' (information only).
+# Saved 2026-11-13T13:12:50.
+zones:
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4666567, -73.6387842], [45.466639, -73.6387385]], "axis_m": [27.0, 31.1], "note": "review round8 (side_day_prince_of_wales_28); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4665526, -73.6385165], [45.4665347, -73.6384704]], "axis_m": [50.9, 55.0], "note": "review round8 (side_day_prince_of_wales_52); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4665223, -73.6384386], [45.4665084, -73.6384029]], "axis_m": [57.8, 61.0], "note": "review round8 (side_day_prince_of_wales_58); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4664081, -73.638145], [45.4663994, -73.6381226]], "axis_m": [84.0, 86.0], "note": "review round8 (side_day_prince_of_wales_86); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4663362, -73.63796], [45.4663209, -73.6379207]], "axis_m": [100.5, 104.0], "note": "review round8 (side_day_prince_of_wales_102); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4662263, -73.6376774], [45.4662135, -73.6376445]], "axis_m": [125.7, 128.6], "note": "review round8 (side_day_prince_of_wales_128); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.466201, -73.6376123], [45.4661885, -73.6375804]], "axis_m": [131.5, 134.3], "note": "review round8 (side_day_prince_of_wales_133); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4661116, -73.6373824], [45.4661007, -73.6373546]], "axis_m": [152.0, 154.5], "note": "review round8 (side_day_prince_of_wales_154); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4660112, -73.6371245], [45.4659894, -73.6370684]], "axis_m": [175.0, 180.0], "note": "review round8 (side_day_prince_of_wales_176); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4659115, -73.6368679], [45.4659023, -73.6368444]], "axis_m": [197.9, 200.0], "note": "review round8 (side_day_prince_of_wales_198); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4657997, -73.6365806], [45.465791, -73.6365582]], "axis_m": [223.5, 225.5], "note": "review round8 (side_day_prince_of_wales_225); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4656985, -73.6363205], [45.4656885, -73.6362947]], "axis_m": [246.7, 249.0], "note": "review round8 (side_day_prince_of_wales_248); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4654298, -73.635627], [45.4654144, -73.6355873]], "axis_m": [308.5, 312.0], "note": "review round8 (side_day_prince_of_wales_310); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4652585, -73.6351818], [45.4652431, -73.6351413]], "axis_m": [348.1, 351.7], "note": "review round8 (side_day_prince_of_wales_350); day pass GX014507, run side_day_prince_of_wales, moved -1.5 m to the night frame"}

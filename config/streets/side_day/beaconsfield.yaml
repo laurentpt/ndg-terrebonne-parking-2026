@@ -1,0 +1,23 @@
+# Avenue Beaconsfield, east side: written by `curb-occupancy segment config/rides/2026-11-12_GX014508.yaml` (2026-11-12)
+extends: _base.yaml
+name: side_day_beaconsfield
+street:
+  name: Avenue Beaconsfield
+  rows:
+    L: {label: east side}
+layout:
+  reference: GX014508
+regulations:            # _base sources + this street's driveways (lists replace on merge)
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+    - type: osm
+    - type: manual      # driveways: reviewed (evening) + daylight pass 2026-11-12 (driveway model, review round8)
+      name: curb_labels
+      file: config/streets/side/beaconsfield_curb.yaml
+clips:
+  - file: GX014508.MP4
+    direction: auto
+    t_range: [6.8, 117.1]
+    note: '2026-11-12 13:06, ride 2026-11-12_GX014508: Avenue Somerled -> ? (riding south, 542 m by GPS)'

@@ -1,0 +1,23 @@
+# Avenue King Edward, west side: written by `curb-occupancy segment config/rides/2026-11-12_GX014507.yaml` (2026-11-12)
+extends: _base.yaml
+name: side_day_king_edward
+street:
+  name: Avenue King Edward
+  rows:
+    L: {label: west side}
+layout:
+  reference: GX014507
+regulations:            # _base sources + this street's driveways (lists replace on merge)
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+    - type: osm
+    - type: manual      # driveways: daylight pass 2026-11-12 (driveway model, review round8)
+      name: curb_labels
+      file: config/streets/side/king_edward_curb.yaml
+clips:
+  - file: GX014507.MP4
+    direction: auto
+    t_range: [136.0, 223.6]
+    note: '2026-11-12 12:59, ride 2026-11-12_GX014507: Avenue de Monkland -> Avenue Somerled (riding north, 535 m by GPS)'

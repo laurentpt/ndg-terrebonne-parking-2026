@@ -1,0 +1,9 @@
+# raw video and run outputs (local; may contain plates / faces): a link to the working data
+workdir
+workdir/
+*.MP4
+*.mp4
+*.THM
+*.LRV
+.~lock.*
+__pycache__/

@@ -1,0 +1,35 @@
+# Avenue Draper, 2026-10-26 side-street pilot: 17:52, Somerled -> Monkland (riding SE)
+extends: _base.yaml
+name: side_draper
+street:
+  name: Avenue Draper
+  rows:
+    L: {label: east side}
+  # reporting stretches frozen as in the 2026-10-30 preliminary presentation: the
+  # ~25-space grouping otherwise moves when one block gains or loses a space
+  stretches:
+    - ["Avenue Somerled", "Rue de Terrebonne"]   # not the stub beyond Somerled
+    - ["Rue de Terrebonne", "Avenue de Monkland"]
+layout:
+  reference: GX014488
+regulations:            # _base sources + this street's driveways (lists replace on merge)
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+    - type: osm
+    - type: manual      # driveways: classifier candidates, each reviewed
+      name: curb_labels
+      file: config/streets/side/draper_curb.yaml
+clips:
+  - file: GX014488.MP4
+    direction: auto
+    note: "17:52, Somerled -> Monkland (riding SE)"
+  - file: GX014496.MP4
+    direction: auto
+    t_range: [113.3, 230.6]
+    note: '2026-10-28 17:31, ride 2026-10-28_GX014496: Avenue Somerled -> Avenue de Monkland (riding south, 543 m by GPS)'
+  - file: GX014499.MP4
+    direction: auto
+    t_range: [181.2, 289.1]
+    note: '2026-10-29 17:34, ride 2026-10-29_GX014499: Avenue Somerled -> Avenue de Monkland (riding south, 558 m by GPS)'

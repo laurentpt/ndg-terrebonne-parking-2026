@@ -1,0 +1,125 @@
+street,stretch_id,date,slot,n_passes,parked,capacity,occupancy,class
+Avenue Beaconsfield,beaconsfield:S01,2026-10-26,early,1,20.000,23.000,0.870,optimal
+Avenue Beaconsfield,beaconsfield:S01,2026-10-28,early,1,12.000,23.000,0.522,low
+Avenue Beaconsfield,beaconsfield:S01,2026-10-29,early,1,16.000,23.000,0.696,low
+Avenue Beaconsfield,beaconsfield:S01,2026-11-10,late,1,17.000,23.000,0.739,low
+Avenue Beaconsfield,beaconsfield:S01,2026-11-11,late,1,16.000,23.000,0.696,low
+Avenue Beaconsfield,beaconsfield:S01,2026-11-12,late,1,18.000,23.000,0.783,low
+Avenue Beaconsfield,beaconsfield:S02,2026-11-10,late,1,26.000,39.000,0.667,low
+Avenue Beaconsfield,beaconsfield:S02,2026-11-11,late,1,28.000,39.000,0.718,low
+Avenue Beaconsfield,beaconsfield:S02,2026-11-12,late,1,28.000,39.000,0.718,low
+Avenue Draper,draper:S01,2026-10-26,early,1,19.000,31.000,0.613,low
+Avenue Draper,draper:S01,2026-10-28,early,1,22.000,31.000,0.710,low
+Avenue Draper,draper:S01,2026-10-29,early,1,14.000,31.000,0.452,very_low
+Avenue Draper,draper:S02,2026-10-26,early,1,24.000,34.000,0.706,low
+Avenue Draper,draper:S02,2026-10-28,early,1,18.000,34.000,0.529,low
+Avenue Draper,draper:S02,2026-10-29,early,1,24.000,34.000,0.706,low
+Avenue Hingston,hingston:S01,2026-10-28,early,1,14.000,32.000,0.438,very_low
+Avenue Hingston,hingston:S01,2026-10-29,early,1,23.000,32.000,0.719,low
+Avenue Hingston,hingston:S02,2026-10-26,early,1,19.000,27.000,0.704,low
+Avenue Hingston,hingston:S02,2026-10-28,early,1,16.000,27.000,0.593,low
+Avenue Hingston,hingston:S02,2026-10-29,early,1,23.000,27.000,0.852,optimal
+Avenue King Edward,king_edward:S01,2026-11-10,late,1,12.000,32.000,0.375,very_low
+Avenue King Edward,king_edward:S01,2026-11-11,late,1,15.000,32.000,0.469,very_low
+Avenue King Edward,king_edward:S01,2026-11-12,late,1,13.000,32.000,0.406,very_low
+Avenue King Edward,king_edward:S02,2026-11-10,late,1,2.000,32.000,0.062,very_low
+Avenue King Edward,king_edward:S02,2026-11-12,late,1,9.000,32.000,0.281,very_low
+Avenue Madison,madison:S01,2026-11-10,late,1,13.000,31.000,0.419,very_low
+Avenue Madison,madison:S01,2026-11-11,late,1,19.000,31.000,0.613,low
+Avenue Madison,madison:S01,2026-11-12,late,1,18.000,31.000,0.581,low
+Avenue Madison,madison:S02,2026-11-10,late,1,11.000,30.000,0.367,very_low
+Avenue Madison,madison:S02,2026-11-11,late,1,17.000,30.000,0.567,low
+Avenue Madison,madison:S02,2026-11-12,late,1,20.000,30.000,0.667,low
+Avenue Prince of Wales,prince_of_wales:S01,2026-11-10,late,1,16.000,30.000,0.533,low
+Avenue Prince of Wales,prince_of_wales:S01,2026-11-11,late,1,20.000,30.000,0.667,low
+Avenue Prince of Wales,prince_of_wales:S01,2026-11-12,late,1,20.000,30.000,0.667,low
+Avenue Prince of Wales,prince_of_wales:S02,2026-11-10,late,1,14.000,31.000,0.452,very_low
+Avenue Prince of Wales,prince_of_wales:S02,2026-11-11,late,1,22.000,31.000,0.710,low
+Avenue Prince of Wales,prince_of_wales:S02,2026-11-12,late,1,17.000,31.000,0.548,low
+Avenue Royal,royal:S01,2026-10-26,early,1,27.000,31.000,0.871,optimal
+Avenue Royal,royal:S01,2026-10-28,early,1,14.000,31.000,0.452,very_low
+Avenue Royal,royal:S01,2026-10-29,early,1,20.000,31.000,0.645,low
+Avenue Royal,royal:S01,2026-11-10,late,1,16.000,43.000,0.372,very_low
+Avenue Royal,royal:S01,2026-11-11,late,1,17.000,43.000,0.395,very_low
+Avenue Royal,royal:S01,2026-11-12,late,1,19.000,43.000,0.442,very_low
+Avenue Royal,royal:S02,2026-10-26,early,1,18.000,22.000,0.818,optimal
+Avenue Royal,royal:S02,2026-10-28,early,1,17.000,22.000,0.773,low
+Avenue Royal,royal:S02,2026-10-29,early,1,19.000,22.000,0.864,optimal
+Avenue Royal,royal:S02,2026-11-10,late,1,21.000,22.000,0.955,full
+Avenue Royal,royal:S02,2026-11-11,late,1,17.000,22.000,0.773,low
+Avenue Royal,royal:S02,2026-11-12,late,1,20.000,22.000,0.909,full
+Avenue Wilson,wilson:S01,2026-11-10,late,1,22.000,27.000,0.815,optimal
+Avenue Wilson,wilson:S01,2026-11-11,late,1,13.000,27.000,0.481,very_low
+Avenue Wilson,wilson:S01,2026-11-12,late,1,19.000,27.000,0.704,low
+Avenue Wilson,wilson:S02,2026-10-29,early,1,24.000,28.000,0.857,optimal
+Avenue Wilson,wilson:S02,2026-11-10,late,1,26.000,29.000,0.897,optimal
+Avenue Wilson,wilson:S02,2026-11-11,late,1,22.000,29.000,0.759,low
+Avenue Wilson,wilson:S02,2026-11-12,late,1,25.000,29.000,0.862,optimal
+Avenue de Hampton,hampton:S01,2026-10-28,early,1,13.000,30.000,0.433,very_low
+Avenue de Hampton,hampton:S01,2026-10-29,early,1,19.000,30.000,0.633,low
+Avenue de Hampton,hampton:S02,2026-10-28,early,1,22.000,40.000,0.550,low
+Avenue de Hampton,hampton:S02,2026-10-29,early,1,22.000,40.000,0.550,low
+Avenue de Mayfair,mayfair:S01,2026-11-10,late,1,7.000,32.000,0.219,very_low
+Avenue de Mayfair,mayfair:S01,2026-11-11,late,1,5.000,32.000,0.156,very_low
+Avenue de Mayfair,mayfair:S01,2026-11-12,late,1,7.000,32.000,0.219,very_low
+Avenue de Mayfair,mayfair:S02,2026-11-10,late,1,15.000,36.000,0.417,very_low
+Avenue de Mayfair,mayfair:S02,2026-11-11,late,1,10.000,36.000,0.278,very_low
+Avenue de Mayfair,mayfair:S02,2026-11-12,late,1,12.000,36.000,0.333,very_low
+Avenue de Melrose,melrose:S01,2026-10-28,early,1,29.000,38.000,0.763,low
+Avenue de Melrose,melrose:S01,2026-10-29,early,1,33.000,38.000,0.868,optimal
+Avenue de Melrose,melrose:S02,2026-10-28,early,1,15.000,28.000,0.536,low
+Avenue de Melrose,melrose:S02,2026-10-29,early,1,21.000,28.000,0.750,low
+Rue de Terrebonne,terrebonne_night:S01,2026-10-23,early,2,8.000,13.000,0.615,low
+Rue de Terrebonne,terrebonne_night:S01,2026-10-26,early,1,6.000,13.000,0.462,very_low
+Rue de Terrebonne,terrebonne_night:S01,2026-10-27,early,1,7.000,13.000,0.538,low
+Rue de Terrebonne,terrebonne_night:S01,2026-10-28,early,1,5.000,13.000,0.385,very_low
+Rue de Terrebonne,terrebonne_night:S01,2026-10-29,early,1,6.000,13.000,0.462,very_low
+Rue de Terrebonne,terrebonne_night:S01,2026-11-05,late,1,4.000,13.000,0.308,very_low
+Rue de Terrebonne,terrebonne_night:S01,2026-11-10,late,1,4.000,13.000,0.308,very_low
+Rue de Terrebonne,terrebonne_night:S01,2026-11-11,late,1,5.000,13.000,0.385,very_low
+Rue de Terrebonne,terrebonne_night:S01,2026-11-12,late,1,4.000,13.000,0.308,very_low
+Rue de Terrebonne,terrebonne_night:S02,2026-10-23,early,2,10.000,26.000,0.385,very_low
+Rue de Terrebonne,terrebonne_night:S02,2026-10-26,early,1,6.000,26.000,0.231,very_low
+Rue de Terrebonne,terrebonne_night:S02,2026-10-27,early,1,10.000,26.000,0.385,very_low
+Rue de Terrebonne,terrebonne_night:S02,2026-10-28,early,1,5.000,26.000,0.192,very_low
+Rue de Terrebonne,terrebonne_night:S02,2026-10-29,early,1,14.000,26.000,0.538,low
+Rue de Terrebonne,terrebonne_night:S02,2026-11-05,late,1,8.000,26.000,0.308,very_low
+Rue de Terrebonne,terrebonne_night:S02,2026-11-10,late,1,7.000,26.000,0.269,very_low
+Rue de Terrebonne,terrebonne_night:S02,2026-11-11,late,1,6.000,26.000,0.231,very_low
+Rue de Terrebonne,terrebonne_night:S02,2026-11-12,late,1,8.000,26.000,0.308,very_low
+Rue de Terrebonne,terrebonne_night:S03,2026-10-23,early,2,17.000,27.000,0.630,low
+Rue de Terrebonne,terrebonne_night:S03,2026-10-26,early,1,16.000,27.000,0.593,low
+Rue de Terrebonne,terrebonne_night:S03,2026-10-27,early,1,18.000,27.000,0.667,low
+Rue de Terrebonne,terrebonne_night:S03,2026-10-28,early,1,12.000,27.000,0.444,very_low
+Rue de Terrebonne,terrebonne_night:S03,2026-10-29,early,1,12.000,27.000,0.444,very_low
+Rue de Terrebonne,terrebonne_night:S03,2026-11-05,late,1,21.000,33.000,0.636,low
+Rue de Terrebonne,terrebonne_night:S03,2026-11-10,late,1,19.000,33.000,0.576,low
+Rue de Terrebonne,terrebonne_night:S03,2026-11-11,late,1,22.000,33.000,0.667,low
+Rue de Terrebonne,terrebonne_night:S03,2026-11-12,late,1,19.000,33.000,0.576,low
+Rue de Terrebonne,terrebonne_night:S04,2026-10-23,early,2,22.500,27.000,0.833,optimal
+Rue de Terrebonne,terrebonne_night:S04,2026-10-26,early,1,21.000,27.000,0.778,low
+Rue de Terrebonne,terrebonne_night:S04,2026-10-27,early,1,21.000,27.000,0.778,low
+Rue de Terrebonne,terrebonne_night:S04,2026-10-28,early,1,22.000,27.000,0.815,optimal
+Rue de Terrebonne,terrebonne_night:S04,2026-10-29,early,1,18.000,27.000,0.667,low
+Rue de Terrebonne,terrebonne_night:S04,2026-11-05,late,1,27.000,27.000,1.000,full
+Rue de Terrebonne,terrebonne_night:S04,2026-11-10,late,1,24.000,27.000,0.889,optimal
+Rue de Terrebonne,terrebonne_night:S04,2026-11-11,late,1,25.000,27.000,0.926,full
+Rue de Terrebonne,terrebonne_night:S04,2026-11-12,late,1,22.000,27.000,0.815,optimal
+Rue de Terrebonne,terrebonne_night:S05,2026-10-23,early,2,22.500,25.000,0.900,full
+Rue de Terrebonne,terrebonne_night:S05,2026-10-26,early,1,17.000,25.000,0.680,low
+Rue de Terrebonne,terrebonne_night:S05,2026-10-27,early,1,20.000,25.000,0.800,optimal
+Rue de Terrebonne,terrebonne_night:S05,2026-10-28,early,1,21.000,25.000,0.840,optimal
+Rue de Terrebonne,terrebonne_night:S05,2026-10-29,early,1,19.000,25.000,0.760,low
+Rue de Terrebonne,terrebonne_night:S05,2026-11-05,late,1,21.000,29.000,0.724,low
+Rue de Terrebonne,terrebonne_night:S05,2026-11-10,late,1,14.000,29.000,0.483,very_low
+Rue de Terrebonne,terrebonne_night:S05,2026-11-11,late,1,18.000,29.000,0.621,low
+Rue de Terrebonne,terrebonne_night:S05,2026-11-12,late,1,19.000,29.000,0.655,low
+Rue de Terrebonne,terrebonne_night:S06,2026-10-23,early,2,17.000,29.000,0.586,low
+Rue de Terrebonne,terrebonne_night:S06,2026-10-26,early,1,18.000,29.000,0.621,low
+Rue de Terrebonne,terrebonne_night:S06,2026-10-27,early,1,19.000,29.000,0.655,low
+Rue de Terrebonne,terrebonne_night:S06,2026-10-28,early,1,13.000,29.000,0.448,very_low
+Rue de Terrebonne,terrebonne_night:S06,2026-10-29,early,1,19.000,29.000,0.655,low
+Rue de Terrebonne,terrebonne_night:S06,2026-11-05,late,1,22.000,29.000,0.759,low
+Rue de Terrebonne,terrebonne_night:S06,2026-11-10,late,1,20.000,29.000,0.690,low
+Rue de Terrebonne,terrebonne_night:S06,2026-11-11,late,1,17.000,29.000,0.586,low
+Rue de Terrebonne,terrebonne_night:S06,2026-11-12,late,1,21.000,29.000,0.724,low

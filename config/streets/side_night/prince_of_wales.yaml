@@ -1,0 +1,31 @@
+# Avenue Prince of Wales, east side: written by `curb-occupancy segment config/rides/2026-11-10_GX014503.yaml` (2026-11-11)
+extends: _base.yaml
+name: side_night_prince_of_wales
+street:
+  name: Avenue Prince of Wales
+  rows:
+    L: {label: east side}
+layout:
+  reference: GX014503
+regulations:            # _base sources + this street's driveways (lists replace on merge)
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+    - type: osm
+    - type: manual      # driveways: daylight pass 2026-11-12 (driveway model, review round8)
+      name: curb_labels
+      file: config/streets/side/prince_of_wales_curb.yaml
+clips:
+  - file: [GX014503.MP4, GX024503.MP4]
+    direction: auto
+    t_range: [275.2, 374.2]
+    note: '2026-11-10 20:01, ride 2026-11-10_GX014503: Avenue Somerled -> Avenue Prince-of-Wales (riding south, 546 m by GPS)'
+  - file: [GX014505.MP4, GX024505.MP4, GX034505.MP4]
+    direction: auto
+    t_range: [319.5, 424.5]
+    note: '2026-11-11 20:10, ride 2026-11-11_GX014505: Avenue Somerled -> Avenue de Monkland (riding south, 533 m by GPS)'
+  - file: [GX014510.MP4, GX024510.MP4, GX034510.MP4]
+    direction: auto
+    t_range: [299.3, 412.4]
+    note: '2026-11-12 20:30, ride 2026-11-12_GX014510: Avenue Somerled -> Avenue de Monkland (riding south, 534 m by GPS)'

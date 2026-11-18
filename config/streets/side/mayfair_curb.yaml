@@ -1,0 +1,20 @@
+# Driveways: candidates from the driveway classifier, each reviewed by the author: on the evening
+# passes (rounds 3 / 4 / 6) and on the daylight pass of 2026-11-12 (round 8); round in each entry's note.
+# Daylight labels are moved from the single daylight pass's GPS placement to the night runs' placement (shift
+# from the night passes' parked cars, see the note of each entry); reviewed labels are in the evening placement.
+# Curb labels in the curb-labeller format (`curb-occupancy serve <config>` -> curb.html).
+# latlon: zone ends at the curb (authoritative); axis_m: street-axis metres of run 'side_day_mayfair' (information only).
+# Saved 2026-11-13T13:12:49.
+zones:
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4623198, -73.6416378], [45.4623, -73.6415875]], "axis_m": [63.5, 68.0], "note": "review round8 (side_day_mayfair_60); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4622471, -73.6414534], [45.4622383, -73.641431]], "axis_m": [80.0, 82.0], "note": "review round8 (side_day_mayfair_77); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4621436, -73.6411907], [45.4621282, -73.6411515]], "axis_m": [103.5, 107.0], "note": "review round8 (side_day_mayfair_100); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4620974, -73.6410733], [45.4620864, -73.6410453]], "axis_m": [114.0, 116.5], "note": "review round8 (side_day_mayfair_111); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4618496, -73.6404445], [45.4618375, -73.6404138]], "axis_m": [170.2, 173.0], "note": "review round8 (side_day_mayfair_168); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4616723, -73.6399946], [45.4616392, -73.6399107]], "axis_m": [210.5, 218.0], "note": "review round8 (side_day_mayfair_208); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4615794, -73.6397589], [45.4615643, -73.6397207]], "axis_m": [231.6, 235.0], "note": "review round8 (side_day_mayfair_229); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4612577, -73.6389424], [45.4612465, -73.6389138]], "axis_m": [304.6, 307.2], "note": "review round8 (side_day_mayfair_302); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4610429, -73.6383957], [45.4610297, -73.6383621]], "axis_m": [353.5, 356.5], "note": "review round8 (side_day_mayfair_350); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4609044, -73.6380434], [45.4608868, -73.6379986]], "axis_m": [385.0, 389.0], "note": "review round8 (side_day_mayfair_382); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4607066, -73.63754], [45.4606868, -73.6374896]], "axis_m": [430.0, 434.5], "note": "review round8 (side_day_mayfair_427); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4604252, -73.636824], [45.4604142, -73.6367961]], "axis_m": [494.0, 496.5], "note": "review round8 (side_day_mayfair_491); day pass GX014507, run side_day_mayfair, moved +3.0 m to the night frame"}

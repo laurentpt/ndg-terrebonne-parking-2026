@@ -1,0 +1,26 @@
+# Driveways: candidates from the driveway classifier on the evening curb images, each reviewed by
+# the author (review round in each entry's note).
+# Curb labels in the curb-labeller format (`curb-occupancy serve <config>` -> curb.html).
+# latlon: zone ends at the curb (authoritative); axis_m: street-axis metres of run 'side_draper' (information only).
+# Saved 2026-10-30T11:08:23.
+zones:
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4752118, -73.6312015], [45.4751867, -73.6311454]], "axis_m": [16.6, 21.8], "note": "review round3 (side_draper_16)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4751293, -73.6310169], [45.475113, -73.6309803]], "axis_m": [33.7, 37.1], "note": "review round3 (side_draper_33)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4750747, -73.6308946], [45.4750602, -73.6308622]], "axis_m": [45.0, 48.0], "note": "review round3 (side_draper_45)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4749467, -73.630608], [45.4749235, -73.6305561]], "axis_m": [71.5, 76.3], "note": "review round3 (side_draper_72)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4748476, -73.6303862], [45.4748331, -73.6303538]], "axis_m": [92.0, 95.0], "note": "review round3 (side_draper_92)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.47474, -73.6301452], [45.474722, -73.630105]], "axis_m": [114.3, 118.0], "note": "review round3 (side_draper_112)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4746302, -73.6298995], [45.4745964, -73.6298237]], "axis_m": [137.0, 144.0], "note": "review round3 (side_draper_137)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4745577, -73.6297372], [45.4745457, -73.6297102]], "axis_m": [152.0, 154.5], "note": "review round3 (side_draper_152)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4744635, -73.6295263], [45.4744394, -73.6294722]], "axis_m": [171.5, 176.5], "note": "review round3 (side_draper_172)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4743664, -73.6293088], [45.4743441, -73.6292589]], "axis_m": [191.6, 196.2], "note": "review round3 (side_draper_192)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4743089, -73.6291801], [45.474293, -73.6291444]], "axis_m": [203.5, 206.8], "note": "review round3 (side_draper_204)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4739239, -73.628324], [45.4738925, -73.628254]], "axis_m": [282.8, 289.3], "note": "review round3 (side_draper_283)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4737025, -73.6278302], [45.4736492, -73.6277113]], "axis_m": [328.5, 339.5], "note": "review round3 (side_draper_328)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4735587, -73.6275095], [45.4735281, -73.6274412]], "axis_m": [358.2, 364.5], "note": "review round3 (side_draper_358)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4734724, -73.6273169], [45.4734337, -73.6272305]], "axis_m": [376.0, 384.0], "note": "review round3 (side_draper_376)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4733809, -73.6271127], [45.4733561, -73.6270576]], "axis_m": [394.9, 400.0], "note": "review round3 (side_draper_395)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.473284, -73.6268966], [45.4732689, -73.6268629]], "axis_m": [414.9, 418.0], "note": "review round3 (side_draper_415)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4731939, -73.6266956], [45.4731734, -73.62665]], "axis_m": [433.5, 437.7], "note": "review round3 (side_draper_434)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4730984, -73.6264828], [45.4730776, -73.6264363]], "axis_m": [453.2, 457.5], "note": "review round3 (side_draper_453)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4729998, -73.6262627], [45.4729807, -73.6262202]], "axis_m": [473.6, 477.5], "note": "review round3 (side_draper_472)"}

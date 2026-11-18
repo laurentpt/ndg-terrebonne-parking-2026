@@ -1,0 +1,51 @@
+# Avenue Royal, west side: every pass, both time slots (final map): the dusk passes
+# (early slot) + the night passes (late slot), one run so both slots share one layout and
+# one set of stretches. Clip windows from the dusk and night ride segmentations
+# (config/rides/). Axis reference = the first night pass
+# (the driveway labels are in the night runs' placement).
+extends: ../side/_base.yaml
+name: final_royal
+street:
+  name: Avenue Royal
+  rows:
+    L: {label: west side}
+  stretches:              # one per block face
+    - ["Avenue de Monkland", "Rue de Terrebonne"]
+    - ["Rue de Terrebonne", "Avenue Somerled"]
+layout:
+  reference: GX014503
+regulations:            # _base sources + this street's driveways (lists replace on merge)
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+    - type: osm
+    - type: manual
+      name: curb_labels
+      file: config/streets/side/royal_curb.yaml
+clips:
+  # early slot (dusk)
+  - file: GX014489.MP4
+    direction: auto
+    note: "17:55, Monkland -> Somerled (riding NW)"
+  - file: GX014496.MP4
+    direction: auto
+    t_range: [249.7, 371.0]
+    note: '2026-10-28 17:33, ride 2026-10-28_GX014496: Avenue de Monkland -> Avenue Somerled (riding north, 535 m by GPS)'
+  - file: GX014499.MP4
+    direction: auto
+    t_range: [302.6, 400.7]
+    note: '2026-10-29 17:36, ride 2026-10-29_GX014499: Avenue de Monkland -> Avenue Somerled (riding north, 542 m by GPS)'
+  # late slot (night)
+  - file: [GX014503.MP4, GX024503.MP4]
+    direction: auto
+    t_range: [796.2, 886.5]
+    note: '2026-11-10 20:10, ride 2026-11-10_GX014503: Avenue de Monkland -> Avenue Somerled (riding north, 545 m by GPS)'
+  - file: [GX014505.MP4, GX024505.MP4, GX034505.MP4]
+    direction: auto
+    t_range: [806.0, 908.3]
+    note: '2026-11-11 20:19, ride 2026-11-11_GX014505: Avenue de Monkland -> Avenue Somerled (riding north, 538 m by GPS)'
+  - file: [GX014510.MP4, GX024510.MP4, GX034510.MP4]
+    direction: auto
+    t_range: [871.2, 967.5]
+    note: '2026-11-12 20:40, ride 2026-11-12_GX014510: Avenue de Monkland -> Avenue Somerled (riding north, 548 m by GPS)'

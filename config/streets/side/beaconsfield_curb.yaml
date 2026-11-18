@@ -1,0 +1,26 @@
+# Driveways: candidates from the driveway classifier, each reviewed by the author: on the evening
+# passes (rounds 3 / 4 / 6) and on the daylight pass of 2026-11-12 (round 8); round in each entry's note.
+# Daylight labels are moved from the single daylight pass's GPS placement to the night runs' placement (shift
+# from the night passes' parked cars, see the note of each entry); reviewed labels are in the evening placement.
+# Curb labels in the curb-labeller format (`curb-occupancy serve <config>` -> curb.html).
+# latlon: zone ends at the curb (authoritative); axis_m: street-axis metres of run 'side_day_beaconsfield' (information only).
+# Saved 2026-11-13T13:12:50.
+zones:
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4724338, -73.6338414], [45.4724145, -73.6337982]], "axis_m": [19.5, 23.5], "note": "review round8 (side_day_beaconsfield_18); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4723632, -73.6336832], [45.4723294, -73.6336075]], "axis_m": [34.1, 41.1], "note": "review round3 (side_beaconsfield_20)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4722547, -73.6334401], [45.4722207, -73.633364]], "axis_m": [56.6, 63.6], "note": "review round3 (side_beaconsfield_42)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4721876, -73.6332897], [45.4721755, -73.6332627]], "axis_m": [70.5, 73.0], "note": "review round8 (side_day_beaconsfield_68); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4721, -73.6330936], [45.472071, -73.6330287]], "axis_m": [88.6, 94.6], "note": "review round3 (side_beaconsfield_74)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4720217, -73.6329181], [45.4720089, -73.6328895]], "axis_m": [104.8, 107.5], "note": "review round8 (side_day_beaconsfield_104); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4720058, -73.6328826], [45.4719913, -73.6328502]], "axis_m": [108.1, 111.1], "note": "review round3 (side_beaconsfield_94)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4719461, -73.6327488], [45.471934, -73.6327218]], "axis_m": [120.5, 123.0], "note": "review round8 (side_day_beaconsfield_118); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4719268, -73.6327055], [45.4719171, -73.6326839]], "axis_m": [124.5, 126.5], "note": "review round8 (side_day_beaconsfield_122); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4718271, -73.6324824], [45.4717917, -73.6324029]], "axis_m": [145.1, 152.5], "note": "review round3 (side_beaconsfield_128)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.471733, -73.6322714], [45.4716726, -73.6321362]], "axis_m": [164.6, 177.1], "note": "review round3 (side_beaconsfield_150)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4716298, -73.6320402], [45.4716085, -73.6319926]], "axis_m": [186.0, 190.4], "note": "review round3 (side_beaconsfield_170)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4710557, -73.6307382], [45.4710434, -73.6307104]], "axis_m": [306.0, 308.5], "note": "review round8 (side_day_beaconsfield_304); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4706908, -73.6299207], [45.4706787, -73.6298937]], "axis_m": [381.5, 384.0], "note": "review round8 (side_day_beaconsfield_380); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4706498, -73.6298288], [45.4706377, -73.6298017]], "axis_m": [390.0, 392.5], "note": "review round8 (side_day_beaconsfield_388); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4703834, -73.6292322], [45.4703672, -73.6291959]], "axis_m": [445.1, 448.5], "note": "review round8 (side_day_beaconsfield_443); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4702923, -73.6290283], [45.4702754, -73.6289904]], "axis_m": [464.0, 467.5], "note": "review round8 (side_day_beaconsfield_462); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4700724, -73.6285358], [45.4700568, -73.6285015]], "axis_m": [509.5, 512.7], "note": "review round8 (side_day_beaconsfield_508); day pass GX014508, run side_day_beaconsfield, moved +2.0 m to the night frame"}

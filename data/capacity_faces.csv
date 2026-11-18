@@ -1,0 +1,132 @@
+street,side,from,to,length_m,spaces,kind,key,block_id,row,sample,restricted_m
+Rue de Terrebonne,south side,Avenue Belmore,Avenue Belmore,7.0,0,measured,terrebonne_night,G00,A,False,0.0
+Rue de Terrebonne,south side,Avenue Belmore,Avenue Coronation,57.0,0,measured,terrebonne_night,G01,A,False,0.0
+Rue de Terrebonne,south side,Avenue Coronation,Avenue de Mayfair,80.0,5,measured,terrebonne_night,G02,A,False,0.0
+Rue de Terrebonne,south side,Avenue de Mayfair,Avenue Mariette,89.0,8,measured,terrebonne_night,G03,A,False,0.0
+Rue de Terrebonne,south side,Avenue Mariette,Avenue Rosedale,86.0,10,measured,terrebonne_night,G04,A,False,0.0
+Rue de Terrebonne,south side,Avenue Rosedale,Avenue King Edward,86.0,8,measured,terrebonne_night,G05,A,False,0.0
+Rue de Terrebonne,south side,Avenue King Edward,Avenue Montclair,93.0,8,measured,terrebonne_night,G06,A,False,0.0
+Rue de Terrebonne,south side,Avenue Montclair,Avenue Walkley,89.0,9,measured,terrebonne_night,G07,A,False,0.0
+Rue de Terrebonne,south side,Avenue Walkley,Avenue Prince of Wales,81.0,5,measured,terrebonne_night,G08,A,False,0.0
+Rue de Terrebonne,south side,Avenue Prince of Wales,Avenue Cumberland,74.0,2,measured,terrebonne_night,G09,A,False,0.0
+Rue de Terrebonne,south side,Avenue Cumberland,Boulevard Cavendish,75.0,3,measured,terrebonne_night,G10,A,False,0.0
+Rue de Terrebonne,south side,Boulevard Cavendish,Avenue Bessborough,72.0,0,measured,terrebonne_night,G11,A,False,0.0
+Rue de Terrebonne,south side,Avenue Bessborough,Avenue Benny,102.0,8,measured,terrebonne_night,G12,A,False,0.0
+Rue de Terrebonne,south side,Avenue Benny,Avenue Madison,154.0,16,measured,terrebonne_night,G13,A,False,0.0
+Rue de Terrebonne,south side,Avenue de Hampton,Avenue Royal,1.0,0,measured,terrebonne_night,G19,A,False,0.0
+Rue de Terrebonne,south side,Avenue Royal,Avenue Draper,95.0,4,measured,terrebonne_night,G20,A,False,0.0
+Rue de Terrebonne,south side,Avenue Draper,Avenue de Melrose,1.0,0,measured,terrebonne_night,G21,A,False,0.0
+Rue de Terrebonne,north side,Avenue Benny,Avenue Madison,1.0,0,measured,terrebonne_night,G13,B,False,0.0
+Rue de Terrebonne,north side,Avenue Madison,Avenue de Kensington,80.0,4,measured,terrebonne_night,G14,B,False,0.0
+Rue de Terrebonne,north side,Avenue de Kensington,Grand Boulevard,92.0,4,measured,terrebonne_night,G15,B,False,0.0
+Rue de Terrebonne,north side,Grand Boulevard,Avenue Beaconsfield,88.0,3,measured,terrebonne_night,G16,B,False,0.0
+Rue de Terrebonne,north side,Avenue Beaconsfield,Avenue Hingston,80.0,7,measured,terrebonne_night,G17,B,False,0.0
+Rue de Terrebonne,north side,Avenue Hingston,Avenue de Hampton,101.0,5,measured,terrebonne_night,G18,B,False,0.0
+Rue de Terrebonne,north side,Avenue de Hampton,Avenue Royal,92.0,5,measured,terrebonne_night,G19,B,False,0.0
+Rue de Terrebonne,north side,Avenue Draper,Avenue de Melrose,89.0,4,measured,terrebonne_night,G21,B,False,0.0
+Rue de Terrebonne,north side,Avenue de Melrose,Avenue Wilson,82.0,5,measured,terrebonne_night,G22,B,False,0.0
+Rue de Terrebonne,north side,Avenue Wilson,Avenue Harvard,77.0,4,measured,terrebonne_night,G23,B,False,0.0
+Rue de Terrebonne,north side,Avenue Harvard,Avenue d'Oxford,79.0,5,measured,terrebonne_night,G24,B,False,0.0
+Rue de Terrebonne,north side,Avenue d'Oxford,Avenue Marcil,81.0,7,measured,terrebonne_night,G25,B,False,0.0
+Rue de Terrebonne,north side,Avenue Marcil,Avenue Old Orchard,75.0,5,measured,terrebonne_night,G26,B,False,0.0
+Rue de Terrebonne,north side,Avenue Old Orchard,Avenue Girouard,29.0,3,measured,terrebonne_night,G27,B,False,0.0
+Avenue Wilson,east side,Rue de Terrebonne,Avenue de Monkland,289.0,29,measured,wilson,G02,L,True,0.0
+Avenue Wilson,east side,Avenue Somerled,Rue de Terrebonne,260.0,27,measured,wilson,G01,L,True,0.0
+Avenue Draper,east side,Avenue Somerled,Rue de Terrebonne,261.0,31,measured,draper,G01,L,True,0.0
+Avenue Draper,east side,Rue de Terrebonne,Avenue de Monkland,279.0,34,measured,draper,G02,L,True,0.0
+Avenue Royal,west side,Avenue de Monkland,Rue de Terrebonne,295.0,31,measured,royal,G01,L,True,0.0
+Avenue Royal,west side,Rue de Terrebonne,Avenue Somerled,256.0,22,measured,royal,G02,L,True,0.0
+Avenue de Hampton,east side,Avenue Somerled,Rue de Terrebonne,262.0,30,measured,hampton,G01,L,True,0.0
+Avenue de Hampton,east side,Rue de Terrebonne,Avenue de Monkland,284.0,40,measured,hampton,G02,L,True,0.0
+Avenue Hingston,west side,Rue de Terrebonne,Avenue Somerled,259.0,27,measured,hingston,G01,L,True,0.0
+Avenue Hingston,west side,Avenue de Monkland,Rue de Terrebonne,290.0,32,measured,hingston,G00,L,True,0.0
+Avenue Beaconsfield,east side,Avenue Somerled,Rue de Terrebonne,256.0,23,measured,beaconsfield,G01,L,True,0.0
+Avenue Beaconsfield,east side,Rue de Terrebonne,Avenue de Monkland,290.0,39,measured,beaconsfield,G02,L,True,0.0
+Avenue de Melrose,west side,Avenue de Monkland,Rue de Terrebonne,293.0,38,measured,melrose,G01,L,True,0.0
+Avenue de Melrose,west side,Rue de Terrebonne,Avenue Somerled,253.0,28,measured,melrose,G02,L,True,0.0
+Avenue Madison,west side,Avenue de Monkland,Rue de Terrebonne,283.0,31,measured,madison,G01,L,True,0.0
+Avenue Madison,west side,Rue de Terrebonne,Avenue Somerled,252.0,30,measured,madison,G02,L,True,0.0
+Avenue Prince of Wales,east side,Avenue Somerled,Rue de Terrebonne,264.0,30,measured,prince_of_wales,G01,L,True,0.0
+Avenue Prince of Wales,east side,Rue de Terrebonne,Rue Starnes,70.0,8,measured,prince_of_wales,G02,L,True,0.0
+Avenue Prince of Wales,east side,Rue Starnes,Rue Duncan,71.0,7,measured,prince_of_wales,G03,L,True,0.0
+Avenue Prince of Wales,east side,Rue Duncan,Rue Cassidy,72.0,9,measured,prince_of_wales,G04,L,True,0.0
+Avenue Prince of Wales,east side,Rue Cassidy,Avenue de Monkland,72.0,7,measured,prince_of_wales,G05,L,True,0.0
+Avenue King Edward,west side,Avenue de Monkland,Rue de Terrebonne,280.0,32,measured,king_edward,G01,L,True,0.0
+Avenue King Edward,west side,Rue de Terrebonne,Avenue Somerled,253.0,32,measured,king_edward,G02,L,True,0.0
+Avenue de Mayfair,east side,Avenue Somerled,Rue de Terrebonne,259.0,32,measured,mayfair,G01,L,True,0.0
+Avenue de Mayfair,east side,Rue de Terrebonne,Avenue de Monkland,271.0,36,measured,mayfair,G02,L,True,0.0
+Avenue Belmore,east side,Avenue Somerled,Rue de Terrebonne,258.8,30,estimated,,,,False,0.0
+Avenue Belmore,west side,Avenue Somerled,Rue de Terrebonne,258.8,30,estimated,,,,False,0.0
+Avenue Coronation,east side,Avenue Somerled,Rue de Terrebonne,258.9,30,estimated,,,,False,0.0
+Avenue Coronation,west side,Avenue Somerled,Rue de Terrebonne,258.9,30,estimated,,,,False,0.0
+Avenue Coronation,east side,Rue de Terrebonne,Avenue de Monkland,266.9,31,estimated,,,,False,0.0
+Avenue Coronation,west side,Rue de Terrebonne,Avenue de Monkland,266.9,31,estimated,,,,False,0.0
+Avenue de Mayfair,west side,Avenue Somerled,Rue de Terrebonne,259.0,30,estimated,,,,False,0.0
+Avenue de Mayfair,west side,Rue de Terrebonne,Avenue de Monkland,270.7,31,estimated,,,,False,0.0
+Avenue Mariette,east side,Avenue Somerled,Rue de Terrebonne,259.1,15,estimated,,,,False,129.0
+Avenue Mariette,west side,Avenue Somerled,Rue de Terrebonne,259.1,30,estimated,,,,False,0.0
+Avenue Mariette,east side,Rue de Terrebonne,Avenue de Monkland,273.6,31,estimated,,,,False,0.0
+Avenue Mariette,west side,Rue de Terrebonne,Avenue de Monkland,273.6,31,estimated,,,,False,0.0
+Avenue Rosedale,east side,Avenue Somerled,Rue de Terrebonne,259.1,30,estimated,,,,False,0.0
+Avenue Rosedale,west side,Avenue Somerled,Rue de Terrebonne,259.1,30,estimated,,,,False,0.0
+Avenue Rosedale,east side,Rue de Terrebonne,Avenue de Monkland,276.7,32,estimated,,,,False,0.0
+Avenue Rosedale,west side,Rue de Terrebonne,Avenue de Monkland,276.7,32,estimated,,,,False,0.0
+Avenue King Edward,east side,Avenue Somerled,Rue de Terrebonne,258.5,30,estimated,,,,False,0.0
+Avenue King Edward,east side,Rue de Terrebonne,Avenue de Monkland,280.8,32,estimated,,,,False,0.0
+Avenue Montclair,east side,Avenue Somerled,Rue de Terrebonne,258.8,30,estimated,,,,False,0.0
+Avenue Montclair,west side,Avenue Somerled,Rue de Terrebonne,258.8,30,estimated,,,,False,0.0
+Avenue Montclair,east side,Rue de Terrebonne,Avenue de Monkland,283.6,22,estimated,,,,False,92.0
+Avenue Montclair,west side,Rue de Terrebonne,Avenue de Monkland,283.6,33,estimated,,,,False,0.0
+Avenue Walkley,east side,Avenue Somerled,Rue de Terrebonne,259.1,30,estimated,,,,False,0.0
+Avenue Walkley,west side,Avenue Somerled,Rue de Terrebonne,259.1,30,estimated,,,,False,0.0
+Avenue Walkley,east side,Rue de Terrebonne,Avenue de Monkland,286.4,33,estimated,,,,False,0.0
+Avenue Walkley,west side,Rue de Terrebonne,Avenue de Monkland,286.4,33,estimated,,,,False,0.0
+Avenue Prince of Wales,west side,Avenue Somerled,Rue de Terrebonne,264.5,30,estimated,,,,False,0.0
+Avenue Prince of Wales,west side,Rue de Terrebonne,Rue Starnes,69.2,8,estimated,,,,False,0.0
+Avenue Prince of Wales,west side,Rue Starnes,Rue Duncan,71.5,8,estimated,,,,False,0.0
+Avenue Prince of Wales,west side,Rue Duncan,Rue Cassidy,71.9,8,estimated,,,,False,0.0
+Avenue Prince of Wales,west side,Rue Cassidy,Avenue de Monkland,71.9,8,estimated,,,,False,0.0
+Avenue Cumberland,east side,Avenue Somerled,Rue de Terrebonne,265.3,30,estimated,,,,False,0.0
+Avenue Cumberland,west side,Avenue Somerled,Rue de Terrebonne,265.3,30,estimated,,,,False,0.0
+Avenue Bessborough,east side,Avenue Somerled,Place Borden,154.6,18,estimated,,,,False,0.0
+Avenue Bessborough,west side,Avenue Somerled,Place Borden,154.6,18,estimated,,,,False,0.0
+Avenue Bessborough,east side,Place Borden,Rue de Terrebonne,114.4,13,estimated,,,,False,0.0
+Avenue Bessborough,west side,Place Borden,Rue de Terrebonne,114.4,13,estimated,,,,False,0.0
+Avenue Benny,east side,Rue de Terrebonne,Avenue de Monkland,286.6,23,estimated,,,,False,87.0
+Avenue Benny,west side,Rue de Terrebonne,Avenue de Monkland,286.6,14,estimated,,,,False,165.0
+Avenue Madison,east side,Avenue Somerled,Rue de Terrebonne,259.5,30,estimated,,,,False,0.0
+Avenue Madison,east side,Rue de Terrebonne,Avenue de Monkland,282.7,32,estimated,,,,False,0.0
+Avenue de Kensington,east side,Avenue Somerled,Rue de Terrebonne,258.6,30,estimated,,,,False,0.0
+Avenue de Kensington,west side,Avenue Somerled,Rue de Terrebonne,258.6,30,estimated,,,,False,0.0
+Avenue de Kensington,east side,Rue de Terrebonne,Avenue de Monkland,283.7,24,estimated,,,,False,73.0
+Avenue de Kensington,west side,Rue de Terrebonne,Avenue de Monkland,283.7,33,estimated,,,,False,0.0
+Avenue Beaconsfield,west side,Avenue Somerled,Rue de Terrebonne,259.7,30,estimated,,,,False,0.0
+Avenue Beaconsfield,west side,Rue de Terrebonne,Avenue de Monkland,293.1,34,estimated,,,,False,0.0
+Avenue Hingston,east side,Avenue Somerled,Rue de Terrebonne,259.6,30,estimated,,,,False,0.0
+Avenue Hingston,east side,Rue de Terrebonne,Avenue de Monkland,293.9,34,estimated,,,,False,0.0
+Avenue de Hampton,west side,Avenue Somerled,Rue de Terrebonne,260.3,30,estimated,,,,False,0.0
+Avenue de Hampton,west side,Rue de Terrebonne,Avenue de Monkland,294.3,34,estimated,,,,False,0.0
+Avenue Royal,east side,Avenue Somerled,Rue de Terrebonne,260.0,30,estimated,,,,False,0.0
+Avenue Royal,east side,Rue de Terrebonne,Avenue de Monkland,295.1,34,estimated,,,,False,0.0
+Avenue Draper,west side,Avenue Somerled,Rue de Terrebonne,260.5,30,estimated,,,,False,0.0
+Avenue Draper,west side,Rue de Terrebonne,Avenue de Monkland,296.4,34,estimated,,,,False,0.0
+Avenue de Melrose,east side,Avenue Somerled,Rue de Terrebonne,259.9,30,estimated,,,,False,0.0
+Avenue de Melrose,east side,Rue de Terrebonne,Avenue de Monkland,297.0,34,estimated,,,,False,0.0
+Avenue Wilson,west side,Avenue Somerled,Rue de Terrebonne,260.1,30,estimated,,,,False,0.0
+Avenue Wilson,west side,Rue de Terrebonne,Avenue de Monkland,298.0,34,estimated,,,,False,0.0
+Avenue Harvard,east side,Avenue Somerled,Rue de Terrebonne,259.4,30,estimated,,,,False,0.0
+Avenue Harvard,west side,Avenue Somerled,Rue de Terrebonne,259.4,30,estimated,,,,False,0.0
+Avenue Harvard,east side,Rue de Terrebonne,Avenue de Monkland,298.8,34,estimated,,,,False,0.0
+Avenue Harvard,west side,Rue de Terrebonne,Avenue de Monkland,298.8,34,estimated,,,,False,0.0
+Avenue d'Oxford,east side,Avenue Somerled,Rue de Terrebonne,260.0,30,estimated,,,,False,0.0
+Avenue d'Oxford,west side,Avenue Somerled,Rue de Terrebonne,260.0,30,estimated,,,,False,0.0
+Avenue d'Oxford,east side,Rue de Terrebonne,Avenue de Monkland,298.2,34,estimated,,,,False,0.0
+Avenue d'Oxford,west side,Rue de Terrebonne,Avenue de Monkland,298.2,34,estimated,,,,False,0.0
+Avenue Marcil,east side,Chemin de la Côte-Saint-Luc,Rue de Terrebonne,262.5,25,estimated,,,,False,41.0
+Avenue Marcil,west side,Chemin de la Côte-Saint-Luc,Rue de Terrebonne,262.5,30,estimated,,,,False,0.0
+Avenue Marcil,east side,Rue de Terrebonne,Avenue de Monkland,297.7,34,estimated,,,,False,0.0
+Avenue Marcil,west side,Rue de Terrebonne,Avenue de Monkland,297.7,34,estimated,,,,False,0.0
+Avenue Old Orchard,east side,Chemin de la Côte-Saint-Luc,Rue de Terrebonne,191.8,22,estimated,,,,False,0.0
+Avenue Old Orchard,west side,Chemin de la Côte-Saint-Luc,Rue de Terrebonne,191.8,22,estimated,,,,False,0.0
+Avenue Old Orchard,east side,Rue de Terrebonne,Avenue de Monkland,297.8,34,estimated,,,,False,0.0
+Avenue Old Orchard,west side,Rue de Terrebonne,Avenue de Monkland,297.8,34,estimated,,,,False,0.0

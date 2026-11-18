@@ -1,0 +1,145 @@
+# Rue de Terrebonne (Montreal, NDG): guideline-window (17-21 h) passes over the full street.
+# 2026-10-23: one out-and-back (exceptional; normal plan = one pass per evening), used to
+# validate the pipeline on the full length (two directions minutes apart, same parked cars).
+# 2026-10-26: one pass (second evening). 2026-10-27, 10-28, 10-29: one pass each (3rd-5th).
+extends: _terrebonne.yaml
+name: terrebonne_evening
+street:
+  osm_json: inputs/osm/terrebonne_full_2026-10-23.json   # `curb-occupancy fetch`; (c) OSM, ODbL
+  # cross-section: _terrebonne.yaml (rows A / B, labels = Montreal street-grid sides; the
+  # axis runs west -> east)
+  # site knowledge (checked on site 2026-10-26): Royal-Draper has parking on the
+  # right (south) curb only, flipped from the blocks around it (open data: P 15 min 7-18 h
+  # weekdays + no parking 8-17 h school days on the right; no stopping on the left). The
+  # left-depth "cars" seen there on 10-23 were traffic queued for the Draper light.
+  segments:
+    - {between: [Avenue Royal, Avenue Draper], rows: [A], note: parking on the south curb only}
+    # the parking lane switches to the north curb at Madison; unforced, the
+    # switch landed 10 m west of it (1056 m: a 16 m north-curb stub, 1 space, one car on 10-28)
+    - {between: [Avenue Benny, Avenue Madison], rows: [A], note: parking on the south curb up to Madison}
+    # Old Orchard-Girouard: from the end of the parked row (no stopping from 2215 m) the north
+    # curb lane is a left-turn lane for the Girouard light; "cars" there were queued
+    - {x_m: [2215, 2265], rows: [], note: left-turn lane to Girouard, no parking row}
+  # cross-street roadway edges placed on the strips (curb review round 2): the
+  # detected deep stretches ran past the curb returns (cars park there every evening)
+  intersections:
+    - {name: Avenue Benny, x1_m: 923.0, note: "east edge; detected 935.7"}
+    - {name: Avenue de Kensington, x0_m: 1139.8, note: "west edge; detected 1133.7"}
+  # reporting stretches frozen as in the 2026-10-30 preliminary presentation: the
+  # ~25-space grouping otherwise moves when one block gains or loses a space
+  stretches:
+    - ["Avenue Coronation", "Avenue Mariette"]   # Belmore-Coronation: two-way, no parking
+    - ["Avenue Mariette", "Avenue Montclair"]
+    - ["Avenue Montclair", "Avenue Benny"]
+    - ["Avenue Benny", "Avenue Beaconsfield"]
+    - ["Avenue Beaconsfield", "Avenue de Melrose"]
+    - ["Avenue de Melrose", "Avenue Girouard"]
+
+camera:
+  height_m: 0.96   # low mount since 2026-10-23 (nominal; GPS-implied height used)
+
+layout:
+  reference: GX014484
+
+clips:
+  - file: GX014484.MP4
+    direction: auto
+    note: "2026-10-23 17:17, out"
+  - file: GX014485.MP4
+    direction: auto
+    note: "2026-10-23 17:25, back"
+  - file: GX014486.MP4
+    direction: auto
+    note: "2026-10-26 17:39, out (second evening; sunset ~17:57, ISO 1100-2000)"
+  - file: GX014495.MP4
+    direction: auto
+    note: "2026-10-27 17:30 (third evening)"
+  - file: GX014497.MP4
+    direction: auto
+    note: "2026-10-28 17:44 (fourth evening)"
+  - file: GX014498.MP4
+    direction: auto
+    note: "2026-10-29 17:22 (fifth evening; shutter 1/240, ISO 2100-6400)"
+    # the road flow reads 3-7 % low over the last ~100 s (dusk, 1/240 s): visual x drifts
+    # ~25 m from the GPS there, the GPS lag fit gives 3.1 s and the alignment fails (30-37
+    # cars matched vs 58-70 between the other passes) -> motion from the GPS Doppler speed
+    camera: {speed: gps}
+
+# Regulations: City of Montreal open data (`curb-occupancy fetch <config>` downloads it), CC-BY 4.0.
+regulations:
+  # conservative for publication: a zone contradicted by parked cars stays non-parkable (the
+  # cars count, the curb does not) until checked on site
+  trust_observations: false
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+      # Old Orchard-Girouard, north curb: the corner panel stands almost at the corner (the
+      # data puts it 9 m in, where the westmost of 3-4 cars parks every
+      # evening): the intersection clearance covers it
+      # residual sign offset pinned at the value fitted through 2026-10-30 (the fit is flat
+      # over metres: dropping the pole above moved it to 0 and every sign by 1 m)
+      offset_m: -1.0
+      arrows: convention   # panels as signed (Quebec convention), corrected below
+      drop_poles:
+        - {pole: 257482, note: "Old Orchard corner: at the corner, not 9 m in"}
+        - {pole: 217123, note: "Kensington-Grand: no arrow, mid-block, 2020 (older than the 2024 corner panels); cars in its zone on 9 evenings"}
+        - {pole: 93857, note: "Avenue Madison pole, 6 m past the corner (dropped in side_night/madison too); projected on row B"}
+      # Grand Blvd-Beaconsfield, north curb: corner poles where GX014484 (reference pass) shows
+      # them, at the rear / front of the first / last car, both parked legally; the data had them 1.8 m east / 4.9 m west of that
+      pole_positions:
+        - {pole: 93836, x_m: 1272.5, note: "Grand Blvd corner, seen in GX014484"}
+        - {pole: 299476, x_m: 1315.5, note: "Beaconsfield corner, seen in GX014484"}
+      # Coronation-Mayfair, south curb: corner pole at the rear of the car parked before it
+      # (GX014485, seen from the other side); data 49.6
+        - {pole: 299367, x_m: 53.2, note: "Mayfair corner, seen in GX014485"}
+      # pole review round 1 (2026-11-15, strips of every pass; recorded position in the note)
+        - {pole: 299375, x_m: 400.1, note: "Montclair corner, pole review (data 397.6)"}
+        - {pole: 299381, x_m: 625.3, note: "Prince of Wales corner, pole review (data 622.9)"}
+        - {pole: 301608, x_m: 1734.2, note: "Draper corner, pole review (data 1736.8)"}
+        - {pole: 299588, x_m: 1934.9, note: "Harvard corner, pole review (data 1930.7)"}
+        - {pole: 299594, x_m: 2093.3, note: "Marcil corner, pole review (data 2092.4)"}
+        - {pole: 299473, x_m: 1087.1, note: "Madison corner, curb review round 2 (data 1089.4)"}
+      # Corrections where the open data disagrees with the parked cars (2026-11-15). Read as
+      # recorded (Quebec arrow convention), 261 of 927 parked car-passes fell in no-stopping
+      # zones (capacity 102); these fixes leave 28 (capacity 143-144, as the site-knowledge
+      # prior they replace). Evenings = dates (of 9) with
+      # cars in the recorded zone.
+      # Row A blocks recorded with both corner arrows mirrored (all installed 2024-05-21): the
+      # zone ran over the middle of the block, where cars park every evening; flipped, it is the
+      # corner approach.
+      pole_arrows:
+        - {pole: 299370, arrow: 3, note: "Mariette-Rosedale, mirrored block (9 evenings)"}
+        - {pole: 299371, arrow: 2, note: "Mariette-Rosedale, mirrored block"}
+        - {pole: 299372, arrow: 3, note: "Rosedale-King Edward, mirrored block (9 evenings)"}
+        - {pole: 299373, arrow: 2, note: "Rosedale-King Edward, mirrored block"}
+        - {pole: 299374, arrow: 3, note: "King Edward-Montclair, mirrored block (9 evenings)"}
+        - {pole: 299375, arrow: 2, note: "King Edward-Montclair, mirrored block"}
+        - {pole: 299379, arrow: 3, note: "Walkley-Prince of Wales, mirrored block (9 evenings)"}
+        - {pole: 299378, arrow: 2, note: "Walkley-Prince of Wales, mirrored block"}
+        # single panels pointing away from their corner
+        - {pole: 299368, arrow: 3, note: "Mayfair-Mariette, Mayfair corner (9 evenings)"}
+        - {pole: 299584, arrow: 3, note: "Melrose-Wilson, Wilson corner (9 evenings)"}
+        - {pole: 257483, arrow: 2, rpa: '\A EN TOUT TEMPS', note: "Old Orchard-Girouard, Old Orchard corner (9 evenings)"}
+    - type: osm         # alleys / lot entrances mapped in OSM (few residential driveways)
+    - type: manual       # driveways etc. drawn in the curb labeller (curb-occupancy serve -> curb.html)
+      name: curb_labels
+      file: config/streets/terrebonne_curb.yaml
+    - type: manual       # site knowledge (stays after curb_labels: the labeller saves to the first)
+      name: site
+      zones:
+        # Belmore-Coronation is two-way: no parking lane; x_m from the
+        # Belmore intersections (-89.5 / -66.7) to Coronation's centre (-9.6), on this axis
+        - {x_m: [-90, -9.6], kind: no_parking, note: "two-way stretch, no parking"}
+
+# Ville de Montreal method: capacity per block at 5.5 m/space minus driveways and hydrants;
+# occupancy 17-21 h over three evenings; >= 85 % optimal, < 80 % low.
+guideline:
+  profile: montreal
+  # Time slots: the 17-21 h window split at 19 h, the midpoint between the
+  # dusk passes (~17:35) and the night passes (~20:20); the final map shows the time-weighted
+  # average (weights = slot hours: occupied / available space-hours), each slot, each ride.
+  # Same in every study config (the area stage requires identical guideline settings).
+  slots:
+    - {key: early, hours: [17, 19], label: {en: Early evening, fr: Début de soirée}}
+    - {key: late, hours: [19, 21], label: {en: Late evening, fr: Fin de soirée}}

@@ -1,0 +1,35 @@
+# Avenue Hingston, 2026-10-26 side-street pilot: 18:00, Monkland -> Somerled (riding NW)
+extends: _base.yaml
+name: side_hingston
+street:
+  name: Avenue Hingston
+  rows:
+    L: {label: west side}
+  # reporting stretches frozen as in the 2026-10-30 preliminary presentation: the
+  # ~25-space grouping otherwise moves when one block gains or loses a space
+  stretches:
+    - ["Avenue de Monkland", "Rue de Terrebonne"]
+    - ["Rue de Terrebonne", "Avenue Somerled"]
+layout:
+  reference: GX014491
+regulations:            # _base sources + this street's driveways (lists replace on merge)
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+    - type: osm
+    - type: manual      # driveways: classifier candidates, each reviewed
+      name: curb_labels
+      file: config/streets/side/hingston_curb.yaml
+clips:
+  - file: GX014491.MP4
+    direction: auto
+    note: "18:00, Monkland -> Somerled (riding NW)"
+  - file: GX014496.MP4
+    direction: auto
+    t_range: [513.5, 604.5]
+    note: '2026-10-28 17:38, ride 2026-10-28_GX014496: Avenue de Monkland -> Avenue Somerled (riding north, 537 m by GPS)'
+  - file: GX014499.MP4
+    direction: auto
+    t_range: [533.6, 640.3]
+    note: '2026-10-29 17:40, ride 2026-10-29_GX014499: Avenue de Monkland -> Avenue Somerled (riding north, 540 m by GPS)'

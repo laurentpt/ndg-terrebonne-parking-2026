@@ -1,0 +1,16 @@
+# Driveways: candidates from the driveway classifier on the evening curb images, each reviewed by
+# the author (review round in each entry's note).
+# Curb labels in the curb-labeller format (`curb-occupancy serve <config>` -> curb.html).
+# latlon: zone ends at the curb (authoritative); axis_m: street-axis metres of run 'side_hampton' (information only).
+# Saved 2026-10-30T11:08:24.
+zones:
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.473764, -73.6325427], [45.4737398, -73.6324882]], "axis_m": [13.0, 18.0], "note": "review round6 (side_hampton_13)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4736914, -73.6323791], [45.4736769, -73.6323466]], "axis_m": [28.1, 31.1], "note": "review round3 (side_hampton_28)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4735565, -73.6320754], [45.4735371, -73.6320318]], "axis_m": [56.1, 60.1], "note": "review round3 (side_hampton_55)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4733849, -73.6316891], [45.4733585, -73.6316296]], "axis_m": [91.8, 97.3], "note": "review round3 (side_hampton_91)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4732399, -73.6313625], [45.4732135, -73.6313032]], "axis_m": [121.9, 127.4], "note": "review round3 (side_hampton_121)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4731414, -73.6311407], [45.473124, -73.6311017]], "axis_m": [142.4, 146.0], "note": "review round3 (side_hampton_142)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4730552, -73.6309468], [45.4730415, -73.6309159]], "axis_m": [160.3, 163.2], "note": "review round3 (side_hampton_160)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4729964, -73.6308143], [45.4729745, -73.6307651]], "axis_m": [172.5, 177.1], "note": "review round3 (side_hampton_171)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4728987, -73.6305944], [45.4728522, -73.6304896]], "axis_m": [192.8, 202.5], "note": "review round3 (side_hampton_192)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4714832, -73.6274206], [45.4714253, -73.627291]], "axis_m": [486.1, 498.1], "note": "review round3 (side_hampton_486)"}

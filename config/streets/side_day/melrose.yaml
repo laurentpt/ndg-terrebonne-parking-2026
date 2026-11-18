@@ -1,0 +1,23 @@
+# Avenue de Melrose, west side: written by `curb-occupancy segment config/rides/2026-11-12_GX014509.yaml` (2026-11-12)
+extends: _base.yaml
+name: side_day_melrose
+street:
+  name: Avenue de Melrose
+  rows:
+    L: {label: west side}
+layout:
+  reference: GX014509
+regulations:            # _base sources + this street's driveways (lists replace on merge)
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+    - type: osm
+    - type: manual      # driveways: reviewed (evening passes)
+      name: curb_labels
+      file: config/streets/side/melrose_curb.yaml
+clips:
+  - file: GX014509.MP4
+    direction: auto
+    t_range: [134.2, 181.1]
+    note: '2026-11-12 13:15, ride 2026-11-12_GX014509: Avenue de Monkland -> ? (riding north, 259 m by GPS)'

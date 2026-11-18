@@ -1,0 +1,32 @@
+# Avenue de Melrose, west side: written by `curb-occupancy segment config/rides/2026-10-28_GX014496.yaml` (2026-10-28)
+extends: _base.yaml
+name: side_melrose
+street:
+  name: Avenue de Melrose
+  rows:
+    L: {label: west side}
+  # reporting stretches frozen as in the 2026-10-30 preliminary presentation: the
+  # ~25-space grouping otherwise moves when one block gains or loses a space
+  stretches:
+    - ["Avenue de Monkland", "Rue de Terrebonne"]   # not the stub beyond Monkland
+    - ["Rue de Terrebonne", "Avenue Somerled"]
+layout:
+  reference: GX014496
+regulations:            # _base sources + this street's driveways (lists replace on merge)
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+    - type: osm
+    - type: manual      # driveways: classifier candidates, each reviewed
+      name: curb_labels
+      file: config/streets/side/melrose_curb.yaml
+clips:
+  - file: GX014496.MP4
+    direction: auto
+    t_range: [0.0, 99.9]
+    note: '2026-10-28 17:29, ride 2026-10-28_GX014496: ? -> Avenue Somerled (riding north, 562 m by GPS)'
+  - file: GX014499.MP4
+    direction: auto
+    t_range: [64.3, 168.4]
+    note: '2026-10-29 17:32, ride 2026-10-29_GX014499: Avenue de Monkland -> Avenue Somerled (riding north, 547 m by GPS)'

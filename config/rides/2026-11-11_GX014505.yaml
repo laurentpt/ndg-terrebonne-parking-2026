@@ -1,0 +1,13 @@
+# 2026-11-11 20:05-20:24 (GPS clock), GX014505 + GX024505 + GX034505: side streets at night,
+# second night of the sparse sample (18.7 min, 1/60 s, ISO 6400 pinned, GPS DOP ~2.4).
+# Appends to the night configs (side_night/), next to the 2026-11-10 passes.
+video: GX014505.MP4
+osm_json: inputs/osm/terrebonne_full_2026-10-23.json   # (c) OSM, ODbL
+streets_dir: ../streets/side_night
+base: _base.yaml
+prefix: side_night_
+skip:                       # Terrebonne: its own config; Somerled and Monkland: arterials
+  - Rue de Terrebonne
+  - Avenue Somerled
+  - Avenue de Monkland
+grid_north_deg: -58         # NDG avenues run at ~122 / 302 deg true (OSM)

@@ -1,0 +1,38 @@
+# Avenue Madison, west side: written by `curb-occupancy segment config/rides/2026-11-10_GX014503.yaml` (2026-11-11)
+extends: _base.yaml
+name: side_night_madison
+street:
+  name: Avenue Madison
+  rows:
+    L: {label: west side}
+layout:
+  reference: GX014503
+regulations:            # _base sources, one pole correction + this street's driveways (lists replace on merge)
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+      # West curb, Terrebonne-Somerled: \A EN TOUT TEMPS on pole 93857, 6 m past the
+      # Terrebonne corner, no arrow and no other \A pole on this curb to end it -> applied
+      # both ways it covered the whole block (0 spaces) while 11-14 cars park there every
+      # night. A corner panel: the intersection clearance covers it (as Old Orchard 257482).
+      # To confirm on site (2026-11-13).
+      drop_poles:
+        - {pole: 93857, note: "Terrebonne corner panel, no arrow, no end pole; cars park the whole block"}
+    - type: osm
+    - type: manual      # driveways: daylight pass 2026-11-15 GX014512 (driveway model, review round9)
+      name: curb_labels
+      file: config/streets/side/madison_curb.yaml
+clips:
+  - file: [GX014503.MP4, GX024503.MP4]
+    direction: auto
+    t_range: [502.6, 597.6]
+    note: '2026-11-10 20:05, ride 2026-11-10_GX014503: Avenue de Monkland -> Avenue Somerled (riding north, 536 m by GPS)'
+  - file: [GX014505.MP4, GX024505.MP4, GX034505.MP4]
+    direction: auto
+    t_range: [496.4, 597.1]
+    note: '2026-11-11 20:13, ride 2026-11-11_GX014505: Avenue de Monkland -> Avenue Somerled (riding north, 531 m by GPS)'
+  - file: [GX014510.MP4, GX024510.MP4, GX034510.MP4]
+    direction: auto
+    t_range: [529.5, 624.9]
+    note: '2026-11-12 20:34, ride 2026-11-12_GX014510: Avenue de Monkland -> Avenue Somerled (riding north, 529 m by GPS)'

@@ -1,0 +1,817 @@
+{
+  "name": "ndg_final",
+  "title": "Rue de Terrebonne and side streets (NDG), 17-21 h",
+  "streets": [
+    {
+      "street": "Rue de Terrebonne",
+      "key": "terrebonne_night",
+      "sides": [
+        "south side",
+        "north side"
+      ],
+      "parked": 91.99999999999999,
+      "capacity": 151.0,
+      "occupancy": 0.609,
+      "stretches": 6,
+      "stretches_covered": 6,
+      "blocks_uncovered": [],
+      "slots": {
+        "avg": {
+          "parked": 91.72,
+          "capacity": 152.0,
+          "occupancy": 0.603,
+          "stretches": 6,
+          "one_slot": 0
+        },
+        "slot:early": {
+          "parked": 89.2,
+          "capacity": 147.0,
+          "occupancy": 0.607,
+          "stretches": 6,
+          "one_slot": null
+        },
+        "slot:late": {
+          "parked": 94.25,
+          "capacity": 157.0,
+          "occupancy": 0.6,
+          "stretches": 6,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue Wilson",
+      "key": "wilson",
+      "sides": [
+        "east side"
+      ],
+      "parked": 42.25,
+      "capacity": 55.75,
+      "occupancy": 0.758,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [
+        "G01",
+        "G02",
+        "G01"
+      ],
+      "slots": {
+        "avg": {
+          "parked": 42.17,
+          "capacity": 55.5,
+          "occupancy": 0.76,
+          "stretches": 2,
+          "one_slot": 1
+        },
+        "slot:early": {
+          "parked": 24.0,
+          "capacity": 28.0,
+          "occupancy": 0.857,
+          "stretches": 1,
+          "one_slot": null
+        },
+        "slot:late": {
+          "parked": 42.33,
+          "capacity": 56.0,
+          "occupancy": 0.756,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue Draper",
+      "key": "draper",
+      "sides": [
+        "east side"
+      ],
+      "parked": 40.333,
+      "capacity": 65.0,
+      "occupancy": 0.621,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [
+        "G00"
+      ],
+      "slots": {
+        "avg": {
+          "parked": 40.33,
+          "capacity": 65.0,
+          "occupancy": 0.621,
+          "stretches": 2,
+          "one_slot": 2
+        },
+        "slot:early": {
+          "parked": 40.33,
+          "capacity": 65.0,
+          "occupancy": 0.621,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue Royal",
+      "key": "royal",
+      "sides": [
+        "west side"
+      ],
+      "parked": 37.5,
+      "capacity": 59.0,
+      "occupancy": 0.636,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [],
+      "slots": {
+        "avg": {
+          "parked": 37.5,
+          "capacity": 59.0,
+          "occupancy": 0.636,
+          "stretches": 2,
+          "one_slot": 0
+        },
+        "slot:early": {
+          "parked": 38.33,
+          "capacity": 53.0,
+          "occupancy": 0.723,
+          "stretches": 2,
+          "one_slot": null
+        },
+        "slot:late": {
+          "parked": 36.67,
+          "capacity": 65.0,
+          "occupancy": 0.564,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue de Hampton",
+      "key": "hampton",
+      "sides": [
+        "east side"
+      ],
+      "parked": 38.0,
+      "capacity": 70.0,
+      "occupancy": 0.543,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [
+        "G01",
+        "G02"
+      ],
+      "slots": {
+        "avg": {
+          "parked": 38.0,
+          "capacity": 70.0,
+          "occupancy": 0.543,
+          "stretches": 2,
+          "one_slot": 2
+        },
+        "slot:early": {
+          "parked": 38.0,
+          "capacity": 70.0,
+          "occupancy": 0.543,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue Hingston",
+      "key": "hingston",
+      "sides": [
+        "west side"
+      ],
+      "parked": 37.833,
+      "capacity": 59.0,
+      "occupancy": 0.641,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [
+        "G00"
+      ],
+      "slots": {
+        "avg": {
+          "parked": 37.83,
+          "capacity": 59.0,
+          "occupancy": 0.641,
+          "stretches": 2,
+          "one_slot": 2
+        },
+        "slot:early": {
+          "parked": 37.83,
+          "capacity": 59.0,
+          "occupancy": 0.641,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue Beaconsfield",
+      "key": "beaconsfield",
+      "sides": [
+        "east side"
+      ],
+      "parked": 43.833,
+      "capacity": 62.0,
+      "occupancy": 0.707,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [
+        "G02",
+        "G02",
+        "G02"
+      ],
+      "slots": {
+        "avg": {
+          "parked": 43.83,
+          "capacity": 62.0,
+          "occupancy": 0.707,
+          "stretches": 2,
+          "one_slot": 1
+        },
+        "slot:early": {
+          "parked": 16.0,
+          "capacity": 23.0,
+          "occupancy": 0.696,
+          "stretches": 1,
+          "one_slot": null
+        },
+        "slot:late": {
+          "parked": 44.33,
+          "capacity": 62.0,
+          "occupancy": 0.715,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue de Melrose",
+      "key": "melrose",
+      "sides": [
+        "west side"
+      ],
+      "parked": 49.0,
+      "capacity": 66.0,
+      "occupancy": 0.742,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [],
+      "slots": {
+        "avg": {
+          "parked": 49.0,
+          "capacity": 66.0,
+          "occupancy": 0.742,
+          "stretches": 2,
+          "one_slot": 2
+        },
+        "slot:early": {
+          "parked": 49.0,
+          "capacity": 66.0,
+          "occupancy": 0.742,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue Madison",
+      "key": "madison",
+      "sides": [
+        "west side"
+      ],
+      "parked": 32.667,
+      "capacity": 61.0,
+      "occupancy": 0.536,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [],
+      "slots": {
+        "avg": {
+          "parked": 32.67,
+          "capacity": 61.0,
+          "occupancy": 0.536,
+          "stretches": 2,
+          "one_slot": 2
+        },
+        "slot:late": {
+          "parked": 32.67,
+          "capacity": 61.0,
+          "occupancy": 0.536,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue Prince of Wales",
+      "key": "prince_of_wales",
+      "sides": [
+        "east side"
+      ],
+      "parked": 36.334,
+      "capacity": 61.0,
+      "occupancy": 0.596,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [],
+      "slots": {
+        "avg": {
+          "parked": 36.33,
+          "capacity": 61.0,
+          "occupancy": 0.596,
+          "stretches": 2,
+          "one_slot": 2
+        },
+        "slot:late": {
+          "parked": 36.33,
+          "capacity": 61.0,
+          "occupancy": 0.596,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue King Edward",
+      "key": "king_edward",
+      "sides": [
+        "west side"
+      ],
+      "parked": 18.833,
+      "capacity": 64.0,
+      "occupancy": 0.294,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [
+        "G02"
+      ],
+      "slots": {
+        "avg": {
+          "parked": 18.83,
+          "capacity": 64.0,
+          "occupancy": 0.294,
+          "stretches": 2,
+          "one_slot": 2
+        },
+        "slot:late": {
+          "parked": 18.83,
+          "capacity": 64.0,
+          "occupancy": 0.294,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    },
+    {
+      "street": "Avenue de Mayfair",
+      "key": "mayfair",
+      "sides": [
+        "east side"
+      ],
+      "parked": 18.666,
+      "capacity": 68.0,
+      "occupancy": 0.274,
+      "stretches": 2,
+      "stretches_covered": 2,
+      "blocks_uncovered": [],
+      "slots": {
+        "avg": {
+          "parked": 18.67,
+          "capacity": 68.0,
+          "occupancy": 0.275,
+          "stretches": 2,
+          "one_slot": 2
+        },
+        "slot:late": {
+          "parked": 18.67,
+          "capacity": 68.0,
+          "occupancy": 0.275,
+          "stretches": 2,
+          "one_slot": null
+        }
+      }
+    }
+  ],
+  "skipped": [],
+  "evening": {
+    "parked": 487.2490000000001,
+    "capacity": 841.75,
+    "occupancy": 0.579,
+    "stretches_covered": 28,
+    "stretches": 28,
+    "stretches_by_class": {
+      "low": 18,
+      "very_low": 6,
+      "optimal": 4
+    },
+    "dates": [
+      "2026-10-23",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12"
+    ],
+    "n_dates_min": 2,
+    "meets_n_evenings": false
+  },
+  "slots": {
+    "avg": {
+      "parked": 486.89,
+      "capacity": 842.5,
+      "occupancy": 0.578,
+      "stretches": 28,
+      "one_slot": 18
+    },
+    "slot:early": {
+      "parked": 332.7,
+      "capacity": 511.0,
+      "occupancy": 0.651,
+      "stretches": 18,
+      "one_slot": null
+    },
+    "slot:late": {
+      "parked": 324.08,
+      "capacity": 594.0,
+      "occupancy": 0.546,
+      "stretches": 20,
+      "one_slot": null
+    }
+  },
+  "driveways_labelled": [
+    "terrebonne_night",
+    "wilson",
+    "draper",
+    "royal",
+    "hampton",
+    "hingston",
+    "beaconsfield",
+    "melrose",
+    "madison",
+    "prince_of_wales",
+    "king_edward",
+    "mayfair"
+  ],
+  "guideline": {
+    "profile": "montreal",
+    "stall_m": 5.5,
+    "window": [
+      17.0,
+      21.0
+    ],
+    "n_evenings": 3,
+    "thresholds": {
+      "optimal": 0.85,
+      "low": 0.8
+    },
+    "classes": [
+      [
+        0.5,
+        "very_low",
+        "Very low"
+      ],
+      [
+        0.8,
+        "low",
+        "Low"
+      ],
+      [
+        0.9,
+        "optimal",
+        "Optimal"
+      ],
+      [
+        null,
+        "full",
+        "Full"
+      ]
+    ],
+    "count_limited": false,
+    "count_permit": true,
+    "stretch_spaces": 25,
+    "reference": {
+      "title": "Ville de Montr\u00e9al, Plan de suivi, REV dans l'axe Bellechasse (2021)",
+      "url": "https://github.com/OpenMobilityData/Terrebonne-access-requests/blob/main/2025-12847/raw/Annexe_1.12_Plan_de_suivi_REV_Bellechasse_2022-02-18.pdf"
+    },
+    "slots": [
+      {
+        "key": "early",
+        "hours": [
+          17.0,
+          19.0
+        ],
+        "label": {
+          "en": "Early evening",
+          "fr": "D\u00e9but de soir\u00e9e"
+        },
+        "weight": 0.5
+      },
+      {
+        "key": "late",
+        "hours": [
+          19.0,
+          21.0
+        ],
+        "label": {
+          "en": "Late evening",
+          "fr": "Fin de soir\u00e9e"
+        },
+        "weight": 0.5
+      }
+    ]
+  },
+  "distribution": [
+    {
+      "label": {
+        "en": "Terrebonne, 17\u201319 h",
+        "fr": "Terrebonne, 17 h \u2013 19 h"
+      },
+      "view": "slot:early",
+      "shares": {
+        "very_low": 0.3333,
+        "low": 0.5,
+        "optimal": 0.1333,
+        "full": 0.0333
+      },
+      "units": {
+        "very_low": 10,
+        "low": 15,
+        "optimal": 4,
+        "full": 1
+      },
+      "n_units": 30,
+      "n_stretches": 6,
+      "n_dates": 5,
+      "n_streets": 1,
+      "weighted": false,
+      "example": false
+    },
+    {
+      "label": {
+        "en": "Terrebonne, 19\u201321 h",
+        "fr": "Terrebonne, 19 h \u2013 21 h"
+      },
+      "view": "slot:late",
+      "shares": {
+        "very_low": 0.375,
+        "low": 0.4583,
+        "optimal": 0.0833,
+        "full": 0.0833
+      },
+      "units": {
+        "very_low": 9,
+        "low": 11,
+        "optimal": 2,
+        "full": 2
+      },
+      "n_units": 24,
+      "n_stretches": 6,
+      "n_dates": 4,
+      "n_streets": 1,
+      "weighted": false,
+      "example": true
+    },
+    {
+      "label": {
+        "en": "Side streets, 17\u201321 h (time-weighted)",
+        "fr": "Rues transversales, 17 h \u2013 21 h (pond\u00e9r\u00e9)"
+      },
+      "view": "avg",
+      "shares": {
+        "very_low": 0.3333,
+        "low": 0.5303,
+        "optimal": 0.1212,
+        "full": 0.0152
+      },
+      "units": {
+        "very_low": 22,
+        "low": 36,
+        "optimal": 10,
+        "full": 2
+      },
+      "n_units": 70,
+      "n_stretches": 22,
+      "n_dates": 6,
+      "n_streets": 11,
+      "weighted": true,
+      "example": false
+    }
+  ],
+  "capacity": {
+    "rate_per_km": 114.7,
+    "m_per_space": 8.72,
+    "sample": {
+      "faces": 25,
+      "length_m": 5974,
+      "spaces": 685,
+      "rate_cv": 0.122
+    },
+    "measured": {
+      "faces": 56,
+      "spaces": 832
+    },
+    "estimated": {
+      "faces": 75,
+      "length_m": 18989,
+      "restricted_m": 587,
+      "faces_restricted": 6,
+      "spaces": 2110.0
+    },
+    "total": 2942,
+    "interval": 0.9,
+    "low": 2841,
+    "high": 3043,
+    "streets": [
+      {
+        "street": "Rue de Terrebonne",
+        "measured": 147,
+        "estimated": 0.0,
+        "faces_measured": 31,
+        "faces_estimated": 0
+      },
+      {
+        "street": "Avenue Wilson",
+        "measured": 56,
+        "estimated": 64.0,
+        "faces_measured": 2,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue Draper",
+        "measured": 65,
+        "estimated": 63.9,
+        "faces_measured": 2,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue Royal",
+        "measured": 53,
+        "estimated": 63.6,
+        "faces_measured": 2,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue de Hampton",
+        "measured": 70,
+        "estimated": 63.6,
+        "faces_measured": 2,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue Hingston",
+        "measured": 59,
+        "estimated": 63.5,
+        "faces_measured": 2,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue Beaconsfield",
+        "measured": 62,
+        "estimated": 63.4,
+        "faces_measured": 2,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue de Melrose",
+        "measured": 66,
+        "estimated": 63.9,
+        "faces_measured": 2,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue Madison",
+        "measured": 61,
+        "estimated": 62.2,
+        "faces_measured": 2,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue Prince of Wales",
+        "measured": 61,
+        "estimated": 63.0,
+        "faces_measured": 5,
+        "faces_estimated": 5
+      },
+      {
+        "street": "Avenue King Edward",
+        "measured": 64,
+        "estimated": 61.8,
+        "faces_measured": 2,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue de Mayfair",
+        "measured": 68,
+        "estimated": 60.7,
+        "faces_measured": 2,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue Belmore",
+        "measured": 0,
+        "estimated": 59.3,
+        "faces_measured": 0,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue Coronation",
+        "measured": 0,
+        "estimated": 120.6,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      },
+      {
+        "street": "Avenue Mariette",
+        "measured": 0,
+        "estimated": 107.4,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      },
+      {
+        "street": "Avenue Rosedale",
+        "measured": 0,
+        "estimated": 122.9,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      },
+      {
+        "street": "Avenue Montclair",
+        "measured": 0,
+        "estimated": 113.8,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      },
+      {
+        "street": "Avenue Walkley",
+        "measured": 0,
+        "estimated": 125.1,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      },
+      {
+        "street": "Avenue Cumberland",
+        "measured": 0,
+        "estimated": 60.8,
+        "faces_measured": 0,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue Bessborough",
+        "measured": 0,
+        "estimated": 61.7,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      },
+      {
+        "street": "Avenue Benny",
+        "measured": 0,
+        "estimated": 36.8,
+        "faces_measured": 0,
+        "faces_estimated": 2
+      },
+      {
+        "street": "Avenue de Kensington",
+        "measured": 0,
+        "estimated": 116.0,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      },
+      {
+        "street": "Avenue Harvard",
+        "measured": 0,
+        "estimated": 128.0,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      },
+      {
+        "street": "Avenue d'Oxford",
+        "measured": 0,
+        "estimated": 128.0,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      },
+      {
+        "street": "Avenue Marcil",
+        "measured": 0,
+        "estimated": 123.8,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      },
+      {
+        "street": "Avenue Old Orchard",
+        "measured": 0,
+        "estimated": 112.3,
+        "faces_measured": 0,
+        "faces_estimated": 4
+      }
+    ]
+  }
+}

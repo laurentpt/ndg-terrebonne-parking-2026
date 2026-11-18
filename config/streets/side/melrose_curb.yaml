@@ -1,0 +1,28 @@
+# Driveways: candidates from the driveway classifier, each reviewed by the author: on the evening
+# passes (rounds 3 / 4 / 6) and on the daylight pass of 2026-11-12 (round 8); round in each entry's note.
+# Daylight labels are moved from the single daylight pass's GPS placement to the night runs' placement (shift
+# from the night passes' parked cars, see the note of each entry); reviewed labels are in the evening placement.
+# Curb labels in the curb-labeller format (`curb-occupancy serve <config>` -> curb.html).
+# latlon: zone ends at the curb (authoritative); axis_m: street-axis metres of run 'side_day_melrose' (information only).
+# Saved 2026-11-13T13:12:50.
+zones:
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4735088, -73.6255267], [45.4735249, -73.6255628]], "axis_m": [43.2, 46.5], "note": "review round3 (side_melrose_66)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4735513, -73.6256218], [45.4735707, -73.6256651]], "axis_m": [52.0, 56.0], "note": "review round8 (side_day_melrose_52); day pass GX014509, run side_day_melrose"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4735968, -73.6257235], [45.4736204, -73.6257761]], "axis_m": [61.4, 66.3], "note": "review round3 (side_melrose_84)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4737228, -73.626005], [45.4737459, -73.6260567]], "axis_m": [87.4, 92.2], "note": "review round3 (side_melrose_110)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4738186, -73.6262192], [45.473833, -73.6262513]], "axis_m": [107.3, 110.2], "note": "review round3 (side_melrose_130)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4740216, -73.626673], [45.4740386, -73.6267108]], "axis_m": [149.2, 152.7], "note": "review round3 (side_melrose_172)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4740869, -73.6268189], [45.4741034, -73.6268557]], "axis_m": [162.7, 166.1], "note": "review round3 (side_melrose_186)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4741789, -73.6270246], [45.4741934, -73.6270568]], "axis_m": [181.7, 184.7], "note": "review round3 (side_melrose_204)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4748718, -73.6285749], [45.4748893, -73.6286141]], "axis_m": [325.1, 328.7], "note": "review round3 (side_melrose_346)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4749617, -73.6287765], [45.4749786, -73.6288143]], "axis_m": [343.7, 347.2], "note": "review round3 (side_melrose_367)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4750438, -73.6289604], [45.4750655, -73.6290091]], "axis_m": [360.7, 365.2], "note": "review round3 (side_melrose_384)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4751303, -73.6291543], [45.4751452, -73.6291876]], "axis_m": [378.6, 381.7], "note": "review round3 (side_melrose_400)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4752176, -73.6293499], [45.4752538, -73.6294311]], "axis_m": [396.7, 404.2], "note": "review round3 (side_melrose_420)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4753262, -73.6295934], [45.4753455, -73.6296367]], "axis_m": [419.2, 423.2], "note": "review round6 (side_melrose_442)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4753576, -73.6296637], [45.4753769, -73.629707]], "axis_m": [425.7, 429.7], "note": "review round6 (side_melrose_449)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4753841, -73.6297233], [45.4753986, -73.6297557]], "axis_m": [431.2, 434.2], "note": "review round4 (side_melrose_454)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4755024, -73.6299884], [45.4755237, -73.6300362]], "axis_m": [455.7, 460.1], "note": "review round3 (side_melrose_479)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4755747, -73.6301504], [45.4756038, -73.6302156]], "axis_m": [470.7, 476.7], "note": "review round3 (side_melrose_492)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.475727, -73.6304919], [45.4757458, -73.6305339]], "axis_m": [502.3, 506.1], "note": "review round3 (side_melrose_524)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.475779, -73.6306084], [45.4758038, -73.6306639]], "axis_m": [513.0, 518.2], "note": "review round3 (side_melrose_534)"}

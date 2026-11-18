@@ -1,0 +1,62 @@
+# Side streets around rue de Terrebonne (NDG): one-way, one travel lane, parking on both curbs.
+# Shared settings; one config per street `extends` this file. Pilot 2026-10-26: one
+# clip per street, riding with traffic, the camera (left of the handlebar, looking left)
+# images the LEFT curb's row across the travel lane only (~3-4 m; the right row is not seen).
+# Report as one side of each street.
+extends: ../_camera.yaml
+street:
+  osm_json: inputs/osm/terrebonne_full_2026-10-23.json   # (c) OSM, ODbL
+  # the street axis runs in the riding direction (the reference pass): the imaged row is on
+  # the left curb; `label` is set per street (Montreal-grid side)
+  rows:
+    L: {curb: left, plane: {forward: mid}}
+  states: [[L]]
+
+camera:
+  # low mount since 2026-10-23: GPS-implied 0.924 on Draper (clean road flow), 0.926 / 0.908
+  # on the 10-23 evening passes. At dusk the road flow reads 10-20 % low with drop-outs
+  # (Royal, Hampton, Hingston), so the motion comes from the GPS speed and the height is fixed.
+  height_m: 0.925
+  scale: nominal
+  speed: gps
+
+mosaic:
+  planes:
+    # left parked row seen across the travel lane: horizon depth mode ~3.6 m on Wilson
+    # (between the default near [1.18, 2.95] and far [4.13, 8.26] bands). Half-res decode
+    # is enough at this depth (~120 source px/m vs 85 px/m in the mosaic).
+    mid: {depth_m: [2.2, 5.5], decode_scale: 0.5, lateral_m: [2.0, 5.5]}
+
+detect:
+  # the plane depth is fixed per pass while the rider wanders across the lane (+-0.5 m at
+  # ~3.6 m): a car 1 m beyond the plane reads ~20 % short (Royal: two sedans at 1.08-1.12 m
+  # rejected). Far objects are still rejected by their ground-contact depth (lateral_m).
+  min_height_m: 0.95
+
+count:
+  travel_lane_m: {mid: [0.8, 2.2]}
+
+regulations:
+  trust_observations: false
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+    - type: osm
+
+guideline:
+  profile: montreal
+  # Time slots: the 17-21 h window split at 19 h, the midpoint between the
+  # dusk passes (~17:35) and the night passes (~20:20); the final map shows the time-weighted
+  # average (weights = slot hours: occupied / available space-hours), each slot, each ride.
+  # Same in every study config (the area stage requires identical guideline settings).
+  slots:
+    - {key: early, hours: [17, 19], label: {en: Early evening, fr: Début de soirée}}
+    - {key: late, hours: [19, 21], label: {en: Late evening, fr: Fin de soirée}}
+
+map:
+  # no bike lane on the side streets: cars park against the curb (Terrebonne's default 2.5 m
+  # inset puts the footprints in the travel lane). Curb 4.0-4.7 m from the OSM centreline
+  # where the sidewalks are mapped (Wilson, Draper, Hingston, Beaconsfield, Melrose)
+  lane_inset_m: 1.1
+  curb_offset_m: 4.5

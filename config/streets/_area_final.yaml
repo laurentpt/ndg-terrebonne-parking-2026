@@ -1,0 +1,100 @@
+# Final map: rue de Terrebonne + the side streets, every pass of the study,
+# in two time slots of the 17-21 h window (guideline.slots: early 17-19 h = dusk rides,
+# late 19-21 h = night rides). Views: time-weighted average (space-hours), each slot, each
+# ride. `curb-occupancy area config/streets/_area_final.yaml` -> workdir/runs/ndg_final/.
+# Streets ridden in both slots have one run with all their passes (Terrebonne:
+# terrebonne_night; Beaconsfield, Royal, Wilson: final/); the others were ridden in one
+# slot only (dusk: Draper, Hampton, Hingston, Melrose; night: Mayfair, King Edward, Prince of
+# Wales, Madison): that slot stands for the window (flagged on the map).
+name: ndg_final
+title:
+  en: Rue de Terrebonne and side streets (NDG), 17-21 h
+  fr: Rue de Terrebonne et rues transversales (NDG), 17 h – 21 h
+streets:
+  - terrebonne_night.yaml
+  - final/wilson.yaml
+  - side/draper.yaml
+  - final/royal.yaml
+  - side/hampton.yaml
+  - side/hingston.yaml
+  - final/beaconsfield.yaml
+  - side/melrose.yaml
+  - side_night/madison.yaml
+  - side_night/prince_of_wales.yaml
+  - side_night/king_edward.yaml
+  - side_night/mayfair.yaml
+# capacity view (map's first view): every block face of the area, measured where a run
+# covered it, else estimated = measured spaces per metre on the sampled side-street faces x
+# OSM block length. Scope: the N-S
+# streets crossing / touching Terrebonne, Belmore -> Old Orchard, from Somerled (Cote-Saint-
+# Luc for Marcil / Old Orchard) to Monkland; Cavendish and Grand Blvd left out (not typical
+# of the sampled streets); Terrebonne counts as measured.
+# class distribution of stretch-evenings (passes of one street on one evening averaged), shown
+# as stacked bars above the stretch table:
+# Terrebonne per slot, the side streets time-weighted (their slots were ridden on different
+# streets). `example`: the bar the page's note quotes.
+distribution:
+  bars:
+    - {streets: [Rue de Terrebonne], view: "slot:early", label: {en: "Terrebonne, 17–19 h", fr: "Terrebonne, 17 h – 19 h"}}
+    - {streets: [Rue de Terrebonne], view: "slot:late", example: true, label: {en: "Terrebonne, 19–21 h", fr: "Terrebonne, 19 h – 21 h"}}
+    - {exclude: [Rue de Terrebonne], view: avg, label: {en: "Side streets, 17–21 h (time-weighted)", fr: "Rues transversales, 17 h – 21 h (pondéré)"}}
+capacity:
+  osm_json: inputs/osm/terrebonne_full_2026-10-23.json
+  grid_north_deg: -58
+  interval: 0.90
+  blocks:
+    - [Avenue Belmore, Avenue Somerled, Rue de Terrebonne]
+    - [Avenue Coronation, Avenue Somerled, Avenue de Monkland]
+    - [Avenue de Mayfair, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Mariette, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Rosedale, Avenue Somerled, Avenue de Monkland]
+    - [Avenue King Edward, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Montclair, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Walkley, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Prince of Wales, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Cumberland, Avenue Somerled, Rue de Terrebonne]
+    - [Avenue Bessborough, Avenue Somerled, Rue de Terrebonne]
+    - [Avenue Benny, Rue de Terrebonne, Avenue de Monkland]
+    - [Avenue Madison, Avenue Somerled, Avenue de Monkland]
+    - [Avenue de Kensington, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Beaconsfield, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Hingston, Avenue Somerled, Avenue de Monkland]
+    - [Avenue de Hampton, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Royal, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Draper, Avenue Somerled, Avenue de Monkland]
+    - [Avenue de Melrose, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Wilson, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Harvard, Avenue Somerled, Avenue de Monkland]
+    - [Avenue d'Oxford, Avenue Somerled, Avenue de Monkland]
+    - [Avenue Marcil, Chemin de la Côte-Saint-Luc, Avenue de Monkland]
+    - [Avenue Old Orchard, Chemin de la Côte-Saint-Luc, Avenue de Monkland]
+  note:                 # shown in the map's method text
+    en: Boulevard Cavendish and Grand Boulevard are left out (wider streets, not typical of the sampled ones).
+    fr: Le boulevard Cavendish et le Grand Boulevard sont exclus (rues plus larges, peu comparables aux rues échantillonnées).
+  # Large signed restrictions on estimated faces, in force on weekdays ~17-18 h (2026-10-31,
+  # city sign data read by hand, zones = pole pairs pointing at each other; positions from
+  # the Terrebonne end, or Somerled / Cote-Saint-Luc; not checked on site). The rate applies
+  # to the rest. Smaller ones (single disabled / EV spaces, short 15-min zones) are as common
+  # on the sampled streets and stay in the rate; Rosedale S west 15-min zone left out (no
+  # closing pole: extent unknown).
+  restrictions:
+    # Benny sports centre side: 15 min until 18 h 9-72 m, no parking 9h-22h30 72-83 and
+    # 184-235 m (poles 46158, 46159, 46161, 46162), disabled 235-275 m (46162, 46163)
+    - {street: Avenue Benny, from: Rue de Terrebonne, to: Avenue de Monkland, side: west side,
+       restricted_m: 165}
+    # disabled drop-off 72-151 m (poles 309011, 265643, 46148, 46152, 46146) + disabled
+    # spaces at the Terrebonne end (46155, 299470)
+    - {street: Avenue Benny, from: Rue de Terrebonne, to: Avenue de Monkland, side: east side,
+       restricted_m: 87}
+    # school: 15 min until 18 h Sept-June 59-188 m (83321, 156080), no stopping 7-18 h at 188
+    - {street: Avenue Mariette, from: Avenue Somerled, to: Rue de Terrebonne, side: east side,
+       restricted_m: 129}
+    # no parking at all times 96-188 m (83930, 83926)
+    - {street: Avenue Montclair, from: Rue de Terrebonne, to: Avenue de Monkland,
+       side: east side, restricted_m: 92}
+    # no parking 9h-22h30 9-82 m (85512, 85501)
+    - {street: Avenue de Kensington, from: Rue de Terrebonne, to: Avenue de Monkland,
+       side: east side, restricted_m: 73}
+    # 15 min until 18 h on school days 17-58 m (89170, 89167, 89168)
+    - {street: Avenue Marcil, from: Chemin de la Côte-Saint-Luc, to: Rue de Terrebonne,
+       side: east side, restricted_m: 41}

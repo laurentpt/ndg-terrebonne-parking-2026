@@ -1,0 +1,27 @@
+block_id,side,from,to,curb_m,hand_count,notes,pipeline
+B03,south,Avenue Coronation,Avenue de Mayfair,57,2,,2
+B04,south,Avenue de Mayfair,Avenue Mariette,65,2,,2
+B05,south,Avenue Mariette,Avenue Rosedale,60,2,,2
+B06,south,Avenue Rosedale,Avenue King Edward,59,1,,1
+B07,south,Avenue King Edward,Avenue Montclair,67,4,,4
+B08,south,Avenue Montclair,Avenue Walkley,62,9,,9
+B09,south,Avenue Walkley,Avenue Prince of Wales,54,3,,3
+B10,south,Avenue Prince of Wales,Avenue Cumberland,51,3,,3
+B11,south,Avenue Cumberland,Boulevard Cavendish,47,1,,1
+B12,south,Boulevard Cavendish,Avenue Bessborough,45,0,,0
+B13,south,Avenue Bessborough,Avenue Benny,78,2,,2
+B14,south,Avenue Benny,Avenue Madison,132,12,,12
+B15,north,Avenue Madison,Avenue de Kensington,51,3,,3
+B16,north,Avenue de Kensington,Grand Boulevard,54,4,,4
+B17,north,Grand Boulevard,Avenue Beaconsfield,57,5,,5
+B18,north,Avenue Beaconsfield,Avenue Hingston,58,7,,8
+B19,north,Avenue Hingston,Avenue de Hampton,76,3,,1
+B20,north,Avenue de Hampton,Avenue Royal,71,2,,2
+B21,south,Avenue Royal,Avenue Draper,71,0,,0
+B22,north,Avenue Draper,Avenue de Melrose,63,4,,4
+B23,north,Avenue de Melrose,Avenue Wilson,59,3,,4
+B24,north,Avenue Wilson,Avenue Harvard,54,3,,3
+B25,north,Avenue Harvard,Avenue d'Oxford,55,4,,4
+B26,north,Avenue d'Oxford,Avenue Marcil,57,2,,2
+B27,north,Avenue Marcil,Avenue Old Orchard,55,5,,5
+B28,north,Avenue Old Orchard,Avenue Girouard,20,3,,3

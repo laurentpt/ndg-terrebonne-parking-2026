@@ -1,0 +1,35 @@
+# Avenue de Hampton, 2026-10-26 side-street pilot: 17:57, Somerled -> Monkland (riding SE)
+extends: _base.yaml
+name: side_hampton
+street:
+  name: Avenue de Hampton
+  rows:
+    L: {label: east side}
+  # reporting stretches frozen as in the 2026-10-30 preliminary presentation: the
+  # ~25-space grouping otherwise moves when one block gains or loses a space
+  stretches:
+    - ["Avenue Somerled", "Rue de Terrebonne"]
+    - ["Rue de Terrebonne", "Avenue de Monkland"]
+layout:
+  reference: GX014490
+regulations:            # _base sources + this street's driveways (lists replace on merge)
+  sources:
+    - type: montreal
+      signs_csv: inputs/montreal_2026-10-23/signalisation_stationnement.csv
+      hydrants_csv: inputs/montreal_2026-10-23/bornes_incendie.csv
+    - type: osm
+    - type: manual      # driveways: classifier candidates, each reviewed
+      name: curb_labels
+      file: config/streets/side/hampton_curb.yaml
+clips:
+  - file: GX014490.MP4
+    direction: auto
+    note: "17:57, Somerled -> Monkland (riding SE)"
+  - file: GX014496.MP4
+    direction: auto
+    t_range: [385.3, 496.6]
+    note: '2026-10-28 17:36, ride 2026-10-28_GX014496: Avenue Somerled -> Avenue de Monkland (riding south, 540 m by GPS)'
+  - file: GX014499.MP4
+    direction: auto
+    t_range: [416.5, 518.6]
+    note: '2026-10-29 17:38, ride 2026-10-29_GX014499: Avenue Somerled -> Avenue de Monkland (riding south, 543 m by GPS)'

@@ -1,0 +1,22 @@
+# Driveways: candidates from the driveway classifier on the evening curb images, each reviewed by
+# the author (review round in each entry's note).
+# Curb labels in the curb-labeller format (`curb-occupancy serve <config>` -> curb.html).
+# latlon: zone ends at the curb (authoritative); axis_m: street-axis metres of run 'side_royal' (information only).
+# Saved 2026-10-30T11:08:23.
+zones:
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4721046, -73.6266918], [45.4721365, -73.6267614]], "axis_m": [29.0, 35.5], "note": "review round3 (side_royal_26)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4721952, -73.6268893], [45.4722158, -73.6269346]], "axis_m": [47.4, 51.7], "note": "review round3 (side_royal_46)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4722714, -73.6270579], [45.4722835, -73.6270849]], "axis_m": [63.1, 65.6], "note": "review round3 (side_royal_63)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4731002, -73.6289148], [45.4731133, -73.6289439]], "axis_m": [234.7, 237.4], "note": "review round3 (side_royal_232)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4734208, -73.6296602], [45.4734426, -73.6297088]], "axis_m": [303.0, 307.5], "note": "review round3 (side_royal_303)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4735395, -73.6299249], [45.4735545, -73.6299584]], "axis_m": [327.5, 330.6], "note": "review round3 (side_royal_328)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4736611, -73.6301961], [45.4736824, -73.6302436]], "axis_m": [352.6, 357.0], "note": "review round3 (side_royal_349)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4737522, -73.6303992], [45.4737633, -73.6304241]], "axis_m": [371.4, 373.7], "note": "review round3 (side_royal_371)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.473835, -73.630584], [45.473853, -73.6306239]], "axis_m": [388.5, 392.2], "note": "review round3 (side_royal_388)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4739227, -73.6307795], [45.4739373, -73.6308119]], "axis_m": [406.6, 409.6], "note": "review round3 (side_royal_407)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4739785, -73.6309037], [45.4739971, -73.6309453]], "axis_m": [418.1, 421.9], "note": "review round3 (side_royal_418)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.474073, -73.6311144], [45.4741106, -73.6311983]], "axis_m": [437.6, 445.4], "note": "review round3 (side_royal_437)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4741455, -73.6312763], [45.474182, -73.6313575]], "axis_m": [452.6, 460.1], "note": "review round3 (side_royal_452)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4742393, -73.6314854], [45.4742826, -73.6315818]], "axis_m": [471.9, 480.9], "note": "review round3 (side_royal_468)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4743169, -73.6316584], [45.4743518, -73.6317362]], "axis_m": [487.9, 495.1], "note": "review round3 (side_royal_487)"}
+  - {"kind": "driveway", "curb": "left", "latlon": [[45.4744068, -73.6318588], [45.4744238, -73.6318966]], "axis_m": [506.5, 510.0], "note": "review round6 (side_royal_506)"}

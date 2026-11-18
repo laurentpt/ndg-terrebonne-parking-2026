@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="178" viewBox="0 0 640 178" role="img" aria-label="Share of stretch-evenings in each class: one unit is one stretch (about 25 spaces) on one evening, passes of the same evening averaged.">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-variant-numeric:tabular-nums}.ink{fill:#0b0b0b}.ink2{fill:#52514e}.muted{fill:#6f6d68}@media (prefers-color-scheme:dark){.ink{fill:#f0efec}.ink2{fill:#c3c2b7}.muted{fill:#a3a29b}}</style>
+<defs><clipPath id="bars"><rect x="8" y="26" width="624" height="20" rx="4"/><rect x="8" y="76" width="624" height="20" rx="4"/><rect x="8" y="126" width="624" height="20" rx="4"/></clipPath></defs>
+<g clip-path="url(#bars)">
+<rect x="8.0" y="26" width="206.0" height="20" fill="#86b6ef"><title>Very low (&lt; 50 %): 33 % (10 / 30)</title></rect>
+<rect x="216.0" y="26" width="309.0" height="20" fill="#3987e5"><title>Low (50–80 %): 50 % (15 / 30)</title></rect>
+<rect x="527.0" y="26" width="82.4" height="20" fill="#1c5cab"><title>Optimal (80–90 %): 13 % (4 / 30)</title></rect>
+<rect x="611.4" y="26" width="20.6" height="20" fill="#0d366b"><title>Full (≥ 90 %): 3 % (1 / 30)</title></rect>
+<rect x="8.0" y="76" width="231.8" height="20" fill="#86b6ef"><title>Very low (&lt; 50 %): 38 % (9 / 24)</title></rect>
+<rect x="241.8" y="76" width="283.3" height="20" fill="#3987e5"><title>Low (50–80 %): 46 % (11 / 24)</title></rect>
+<rect x="527.0" y="76" width="51.5" height="20" fill="#1c5cab"><title>Optimal (80–90 %): 8 % (2 / 24)</title></rect>
+<rect x="580.5" y="76" width="51.5" height="20" fill="#0d366b"><title>Full (≥ 90 %): 8 % (2 / 24)</title></rect>
+<rect x="8.0" y="126" width="206.0" height="20" fill="#86b6ef"><title>Very low (&lt; 50 %): 33 % (22 / 70)</title></rect>
+<rect x="216.0" y="126" width="327.7" height="20" fill="#3987e5"><title>Low (50–80 %): 53 % (36 / 70)</title></rect>
+<rect x="545.7" y="126" width="74.9" height="20" fill="#1c5cab"><title>Optimal (80–90 %): 12 % (10 / 70)</title></rect>
+<rect x="622.6" y="126" width="9.4" height="20" fill="#0d366b"><title>Full (≥ 90 %): 2 % (2 / 70)</title></rect>
+</g>
+<text x="8" y="20" class="ink">Terrebonne, 17–19 h</text>
+<text x="632" y="20" class="muted" text-anchor="end">30 stretch-evenings · 6 stretches · 5 evenings</text>
+<text x="111.0" y="40" text-anchor="middle" font-size="11" fill="#0b0b0b">33 %</text>
+<text x="370.5" y="40" text-anchor="middle" font-size="11" fill="#fff">50 %</text>
+<text x="568.2" y="40" text-anchor="middle" font-size="11" fill="#fff">13 %</text>
+<text x="8" y="70" class="ink">Terrebonne, 19–21 h</text>
+<text x="632" y="70" class="muted" text-anchor="end">24 stretch-evenings · 6 stretches · 4 evenings</text>
+<text x="123.9" y="90" text-anchor="middle" font-size="11" fill="#0b0b0b">38 %</text>
+<text x="383.4" y="90" text-anchor="middle" font-size="11" fill="#fff">46 %</text>
+<text x="552.8" y="90" text-anchor="middle" font-size="11" fill="#fff">8 %</text>
+<text x="606.3" y="90" text-anchor="middle" font-size="11" fill="#fff">8 %</text>
+<text x="8" y="120" class="ink">Side streets, 17–21 h (time-weighted)</text>
+<text x="632" y="120" class="muted" text-anchor="end">70 stretch-evenings · 22 stretches · 6 evenings</text>
+<text x="111.0" y="140" text-anchor="middle" font-size="11" fill="#0b0b0b">33 %</text>
+<text x="379.8" y="140" text-anchor="middle" font-size="11" fill="#fff">53 %</text>
+<text x="583.2" y="140" text-anchor="middle" font-size="11" fill="#fff">12 %</text>
+<rect x="8" y="159" width="10" height="10" rx="2" fill="#86b6ef"/>
+<text x="22" y="168" class="ink2" font-size="11">Very low (&lt; 50 %)</text>
+<rect x="141.4" y="159" width="10" height="10" rx="2" fill="#3987e5"/>
+<text x="155.4" y="168" class="ink2" font-size="11">Low (50–80 %)</text>
+<rect x="250.0" y="159" width="10" height="10" rx="2" fill="#1c5cab"/>
+<text x="264.0" y="168" class="ink2" font-size="11">Optimal (80–90 %)</text>
+<rect x="383.4" y="159" width="10" height="10" rx="2" fill="#0d366b"/>
+<text x="397.4" y="168" class="ink2" font-size="11">Full (≥ 90 %)</text>
+</svg>

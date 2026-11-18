@@ -1,0 +1,11 @@
+# 2026-10-29 17:31, GX014499: side streets as one recording (11.8 min).
+video: GX014499.MP4
+osm_json: inputs/osm/terrebonne_full_2026-10-23.json   # (c) OSM, ODbL
+streets_dir: ../streets/side
+base: _base.yaml
+prefix: side_
+skip:                       # Terrebonne: its own config (rows A/B, full street); Somerled and
+  - Rue de Terrebonne       # Monkland: one-block connectors between avenues (arterials, own
+  - Avenue Somerled         # regulations), not study streets
+  - Avenue de Monkland
+grid_north_deg: -58         # NDG avenues run at ~122 / 302 deg true (OSM)

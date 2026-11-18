@@ -1,0 +1,4 @@
+# Side streets in daylight (2026-11-12 midday, 1/960 s): passes for driveway labelling, not
+# occupancy (outside the 17-21 h window). Same cross-section, camera and regulation sources
+# as the evening side streets; own configs and runs so the evening / night runs stay unchanged.
+extends: ../side/_base.yaml

@@ -1,0 +1,8 @@
+# Camera of the 2026 NDG captures, shared by every street config of this study (`extends`).
+# GoPro HERO8 Black (Wide, HyperSmooth EIS, 4:3 1920x1440) on the bike's left, looking left.
+camera:
+  rig: gopro_hero8_wide_hseis   # package rigs/: lens profile, rolling shutter, IMU axes
+  mount_yaw_deg: 65             # optical axis ~60-70 deg left of forward
+  # pass times from the GPS clock: the camera clock stayed on EDT after 2026-11-01 (night
+  # clips read 1 h 01-02 late) and runs ~1 min fast
+  timezone: America/Montreal

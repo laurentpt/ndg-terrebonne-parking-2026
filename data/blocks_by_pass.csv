@@ -1,0 +1,408 @@
+street,side,clip,when,date,block_id,row,x0_ref_m,x1_ref_m,covered,in_window,capacity,n_parked,n_not_legal_spot,occupancy,n_parked_seen,from,to,row_length_m,key
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G00,A,-89.5,-66.7,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Belmore,7,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G01,A,-66.7,-9.8,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Coronation,57,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G02,A,-9.8,70.2,True,True,5,5.0,0.0,1.0,,Avenue Coronation,Avenue de Mayfair,80,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G03,A,70.2,158.7,True,True,8,3.0,0.0,0.375,,Avenue de Mayfair,Avenue Mariette,89,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G04,A,158.7,244.7,True,True,10,2.0,0.0,0.2,,Avenue Mariette,Avenue Rosedale,86,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G05,A,244.7,331.2,True,True,8,1.0,0.0,0.125,,Avenue Rosedale,Avenue King Edward,86,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G06,A,331.2,423.7,True,True,8,7.0,0.0,0.875,,Avenue King Edward,Avenue Montclair,93,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G07,A,423.7,512.7,True,True,9,7.0,0.0,0.778,,Avenue Montclair,Avenue Walkley,89,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G08,A,512.7,594.2,True,True,5,3.0,0.0,0.6,,Avenue Walkley,Avenue Prince of Wales,81,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G09,A,594.2,668.3,True,True,2,0.0,0.0,0.0,,Avenue Prince of Wales,Avenue Cumberland,74,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G10,A,668.3,743.2,True,True,3,5.0,3.0,1.667,,Avenue Cumberland,Boulevard Cavendish,75,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G11,A,743.2,815.2,True,True,0,0.0,0.0,,,Boulevard Cavendish,Avenue Bessborough,72,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G12,A,815.2,916.8,True,True,8,3.0,1.0,0.375,,Avenue Bessborough,Avenue Benny,102,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G13,A,916.8,1071.7,True,True,16,11.0,0.0,0.688,,Avenue Benny,Avenue Madison,154,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G19,A,1512.7,1605.7,True,True,0,0.0,0.0,,,Avenue de Hampton,Avenue Royal,1,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G20,A,1605.7,1700.7,True,True,4,1.0,0.0,0.25,,Avenue Royal,Avenue Draper,95,terrebonne_night
+Rue de Terrebonne,south side,GX014484,2026-10-23T17:17,2026-10-23,G21,A,1700.7,1790.7,True,True,0,0.0,0.0,,,Avenue Draper,Avenue de Melrose,1,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G13,B,916.8,1071.7,True,True,0,0.0,0.0,,,Avenue Benny,Avenue Madison,1,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G14,B,1071.7,1151.7,True,True,4,4.0,0.0,1.0,,Avenue Madison,Avenue de Kensington,80,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G15,B,1151.7,1243.7,True,True,4,2.0,0.0,0.5,,Avenue de Kensington,Grand Boulevard,92,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G16,B,1243.7,1331.7,True,True,3,5.0,0.0,1.667,,Grand Boulevard,Avenue Beaconsfield,88,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G17,B,1331.7,1412.2,True,True,7,7.0,0.0,1.0,,Avenue Beaconsfield,Avenue Hingston,80,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G18,B,1412.2,1512.7,True,True,5,5.0,0.0,1.0,,Avenue Hingston,Avenue de Hampton,101,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G19,B,1512.7,1605.7,True,True,5,5.0,0.0,1.0,,Avenue de Hampton,Avenue Royal,92,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G21,B,1700.7,1790.7,True,True,4,3.0,0.0,0.75,,Avenue Draper,Avenue de Melrose,89,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G22,B,1790.7,1873.2,True,True,5,4.0,0.0,0.8,,Avenue de Melrose,Avenue Wilson,82,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G23,B,1873.2,1949.7,True,True,4,0.0,0.0,0.0,,Avenue Wilson,Avenue Harvard,77,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G24,B,1949.7,2029.2,True,True,5,2.0,0.0,0.4,,Avenue Harvard,Avenue d'Oxford,79,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G25,B,2029.2,2110.2,True,True,7,5.0,0.0,0.714,,Avenue d'Oxford,Avenue Marcil,81,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G26,B,2110.2,2185.2,True,True,5,3.0,0.0,0.6,,Avenue Marcil,Avenue Old Orchard,75,terrebonne_night
+Rue de Terrebonne,north side,GX014484,2026-10-23T17:17,2026-10-23,G27,B,2185.2,2264.3,True,True,3,3.0,0.0,1.0,,Avenue Old Orchard,Avenue Girouard,29,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G00,A,-89.5,-66.7,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Belmore,7,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G01,A,-66.7,-9.8,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Coronation,57,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G02,A,-9.8,70.2,True,True,5,5.0,0.0,1.0,,Avenue Coronation,Avenue de Mayfair,80,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G03,A,70.2,158.7,True,True,8,3.0,0.0,0.375,,Avenue de Mayfair,Avenue Mariette,89,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G04,A,158.7,244.7,True,True,10,2.0,0.0,0.2,,Avenue Mariette,Avenue Rosedale,86,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G05,A,244.7,331.2,True,True,8,1.0,0.0,0.125,,Avenue Rosedale,Avenue King Edward,86,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G06,A,331.2,423.7,True,True,8,7.0,0.0,0.875,,Avenue King Edward,Avenue Montclair,93,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G07,A,423.7,512.7,True,True,9,7.0,0.0,0.778,,Avenue Montclair,Avenue Walkley,89,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G08,A,512.7,594.2,True,True,5,3.0,0.0,0.6,,Avenue Walkley,Avenue Prince of Wales,81,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G09,A,594.2,668.3,True,True,2,0.0,0.0,0.0,,Avenue Prince of Wales,Avenue Cumberland,74,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G10,A,668.3,743.2,True,True,3,5.0,2.0,1.667,,Avenue Cumberland,Boulevard Cavendish,75,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G11,A,743.2,815.2,True,True,0,0.0,0.0,,,Boulevard Cavendish,Avenue Bessborough,72,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G12,A,815.2,916.8,True,True,8,1.0,0.0,0.125,,Avenue Bessborough,Avenue Benny,102,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G13,A,916.8,1071.7,True,True,16,10.0,0.0,0.625,,Avenue Benny,Avenue Madison,154,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G19,A,1512.7,1605.7,True,True,0,0.0,0.0,,,Avenue de Hampton,Avenue Royal,1,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G20,A,1605.7,1700.7,True,True,4,3.0,0.0,0.75,,Avenue Royal,Avenue Draper,95,terrebonne_night
+Rue de Terrebonne,south side,GX014485,2026-10-23T17:25,2026-10-23,G21,A,1700.7,1790.7,True,True,0,0.0,0.0,,,Avenue Draper,Avenue de Melrose,1,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G13,B,916.8,1071.7,True,True,0,0.0,0.0,,,Avenue Benny,Avenue Madison,1,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G14,B,1071.7,1151.7,True,True,4,4.0,0.0,1.0,,Avenue Madison,Avenue de Kensington,80,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G15,B,1151.7,1243.7,True,True,4,4.0,0.0,1.0,,Avenue de Kensington,Grand Boulevard,92,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G16,B,1243.7,1331.7,True,True,3,5.0,0.0,1.667,,Grand Boulevard,Avenue Beaconsfield,88,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G17,B,1331.7,1412.2,True,True,7,7.0,0.0,1.0,,Avenue Beaconsfield,Avenue Hingston,80,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G18,B,1412.2,1512.7,True,True,5,5.0,0.0,1.0,,Avenue Hingston,Avenue de Hampton,101,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G19,B,1512.7,1605.7,True,True,5,6.0,1.0,1.2,,Avenue de Hampton,Avenue Royal,92,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G21,B,1700.7,1790.7,True,True,4,3.0,0.0,0.75,,Avenue Draper,Avenue de Melrose,89,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G22,B,1790.7,1873.2,True,True,5,4.0,0.0,0.8,,Avenue de Melrose,Avenue Wilson,82,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G23,B,1873.2,1949.7,True,True,4,0.0,0.0,0.0,,Avenue Wilson,Avenue Harvard,77,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G24,B,1949.7,2029.2,True,True,5,2.0,0.0,0.4,,Avenue Harvard,Avenue d'Oxford,79,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G25,B,2029.2,2110.2,True,True,7,5.0,0.0,0.714,,Avenue d'Oxford,Avenue Marcil,81,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G26,B,2110.2,2185.2,True,True,5,3.0,0.0,0.6,,Avenue Marcil,Avenue Old Orchard,75,terrebonne_night
+Rue de Terrebonne,north side,GX014485,2026-10-23T17:25,2026-10-23,G27,B,2185.2,2264.3,True,True,3,3.0,0.0,1.0,,Avenue Old Orchard,Avenue Girouard,29,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G00,A,-89.5,-66.7,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Belmore,7,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G01,A,-66.7,-9.8,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Coronation,57,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G02,A,-9.8,70.2,True,True,5,3.0,0.0,0.6,,Avenue Coronation,Avenue de Mayfair,80,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G03,A,70.2,158.7,True,True,8,3.0,0.0,0.375,,Avenue de Mayfair,Avenue Mariette,89,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G04,A,158.7,244.7,True,True,10,2.0,0.0,0.2,,Avenue Mariette,Avenue Rosedale,86,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G05,A,244.7,331.2,True,True,8,1.0,0.0,0.125,,Avenue Rosedale,Avenue King Edward,86,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G06,A,331.2,423.7,True,True,8,3.0,0.0,0.375,,Avenue King Edward,Avenue Montclair,93,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G07,A,423.7,512.7,True,True,9,9.0,0.0,1.0,,Avenue Montclair,Avenue Walkley,89,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G08,A,512.7,594.2,True,True,5,4.0,0.0,0.8,,Avenue Walkley,Avenue Prince of Wales,81,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G09,A,594.2,668.3,True,True,2,1.0,1.0,0.5,,Avenue Prince of Wales,Avenue Cumberland,74,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G10,A,668.3,743.2,True,True,3,2.0,0.0,0.667,,Avenue Cumberland,Boulevard Cavendish,75,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G11,A,743.2,815.2,True,True,0,0.0,0.0,,,Boulevard Cavendish,Avenue Bessborough,72,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G12,A,815.2,916.8,True,True,8,0.0,0.0,0.0,,Avenue Bessborough,Avenue Benny,102,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G13,A,916.8,1071.7,True,True,16,10.0,0.0,0.625,,Avenue Benny,Avenue Madison,154,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G19,A,1512.7,1605.7,True,True,0,0.0,0.0,,,Avenue de Hampton,Avenue Royal,1,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G20,A,1605.7,1700.7,True,True,4,0.0,0.0,0.0,,Avenue Royal,Avenue Draper,95,terrebonne_night
+Rue de Terrebonne,south side,GX014486,2026-10-26T17:38,2026-10-26,G21,A,1700.7,1790.7,True,True,0,0.0,0.0,,,Avenue Draper,Avenue de Melrose,1,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G13,B,916.8,1071.7,True,True,0,0.0,0.0,,,Avenue Benny,Avenue Madison,1,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G14,B,1071.7,1151.7,True,True,4,2.0,0.0,0.5,,Avenue Madison,Avenue de Kensington,80,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G15,B,1151.7,1243.7,True,True,4,4.0,0.0,1.0,,Avenue de Kensington,Grand Boulevard,92,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G16,B,1243.7,1331.7,True,True,3,5.0,0.0,1.667,,Grand Boulevard,Avenue Beaconsfield,88,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G17,B,1331.7,1412.2,True,True,7,6.0,0.0,0.857,,Avenue Beaconsfield,Avenue Hingston,80,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G18,B,1412.2,1512.7,True,True,5,5.0,0.0,1.0,,Avenue Hingston,Avenue de Hampton,101,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G19,B,1512.7,1605.7,True,True,5,4.0,0.0,0.8,,Avenue de Hampton,Avenue Royal,92,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G21,B,1700.7,1790.7,True,True,4,2.0,0.0,0.5,,Avenue Draper,Avenue de Melrose,89,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G22,B,1790.7,1873.2,True,True,5,2.0,0.0,0.4,,Avenue de Melrose,Avenue Wilson,82,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G23,B,1873.2,1949.7,True,True,4,5.0,1.0,1.25,,Avenue Wilson,Avenue Harvard,77,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G24,B,1949.7,2029.2,True,True,5,3.0,0.0,0.6,,Avenue Harvard,Avenue d'Oxford,79,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G25,B,2029.2,2110.2,True,True,7,1.0,0.0,0.143,,Avenue d'Oxford,Avenue Marcil,81,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G26,B,2110.2,2185.2,True,True,5,4.0,0.0,0.8,,Avenue Marcil,Avenue Old Orchard,75,terrebonne_night
+Rue de Terrebonne,north side,GX014486,2026-10-26T17:38,2026-10-26,G27,B,2185.2,2264.3,True,True,3,3.0,0.0,1.0,,Avenue Old Orchard,Avenue Girouard,29,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G00,A,-89.5,-66.7,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Belmore,7,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G01,A,-66.7,-9.8,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Coronation,57,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G02,A,-9.8,70.2,True,True,5,4.0,0.0,0.8,,Avenue Coronation,Avenue de Mayfair,80,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G03,A,70.2,158.7,True,True,8,3.0,0.0,0.375,,Avenue de Mayfair,Avenue Mariette,89,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G04,A,158.7,244.7,True,True,10,3.0,0.0,0.3,,Avenue Mariette,Avenue Rosedale,86,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G05,A,244.7,331.2,True,True,8,2.0,0.0,0.25,,Avenue Rosedale,Avenue King Edward,86,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G06,A,331.2,423.7,True,True,8,5.0,0.0,0.625,,Avenue King Edward,Avenue Montclair,93,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G07,A,423.7,512.7,True,True,9,10.0,1.0,1.111,,Avenue Montclair,Avenue Walkley,89,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G08,A,512.7,594.2,True,True,5,4.0,0.0,0.8,,Avenue Walkley,Avenue Prince of Wales,81,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G09,A,594.2,668.3,True,True,2,1.0,0.0,0.5,,Avenue Prince of Wales,Avenue Cumberland,74,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G10,A,668.3,743.2,True,True,3,3.0,0.0,1.0,,Avenue Cumberland,Boulevard Cavendish,75,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G11,A,743.2,815.2,True,True,0,1.0,0.0,,,Boulevard Cavendish,Avenue Bessborough,72,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G12,A,815.2,916.8,True,True,8,0.0,0.0,0.0,,Avenue Bessborough,Avenue Benny,102,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G13,A,916.8,1071.7,True,True,16,10.0,0.0,0.625,,Avenue Benny,Avenue Madison,154,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G19,A,1512.7,1605.7,True,True,0,0.0,0.0,,,Avenue de Hampton,Avenue Royal,1,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G20,A,1605.7,1700.7,True,True,4,3.0,0.0,0.75,,Avenue Royal,Avenue Draper,95,terrebonne_night
+Rue de Terrebonne,south side,GX014495,2026-10-27T17:29,2026-10-27,G21,A,1700.7,1790.7,True,True,0,0.0,0.0,,,Avenue Draper,Avenue de Melrose,1,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G13,B,916.8,1071.7,True,True,0,0.0,0.0,,,Avenue Benny,Avenue Madison,1,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G14,B,1071.7,1151.7,True,True,4,3.0,0.0,0.75,,Avenue Madison,Avenue de Kensington,80,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G15,B,1151.7,1243.7,True,True,4,4.0,0.0,1.0,,Avenue de Kensington,Grand Boulevard,92,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G16,B,1243.7,1331.7,True,True,3,4.0,0.0,1.333,,Grand Boulevard,Avenue Beaconsfield,88,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G17,B,1331.7,1412.2,True,True,7,5.0,1.0,0.714,,Avenue Beaconsfield,Avenue Hingston,80,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G18,B,1412.2,1512.7,True,True,5,3.0,0.0,0.6,,Avenue Hingston,Avenue de Hampton,101,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G19,B,1512.7,1605.7,True,True,5,5.0,0.0,1.0,,Avenue de Hampton,Avenue Royal,92,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G21,B,1700.7,1790.7,True,True,4,4.0,0.0,1.0,,Avenue Draper,Avenue de Melrose,89,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G22,B,1790.7,1873.2,True,True,5,3.0,0.0,0.6,,Avenue de Melrose,Avenue Wilson,82,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G23,B,1873.2,1949.7,True,True,4,3.0,0.0,0.75,,Avenue Wilson,Avenue Harvard,77,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G24,B,1949.7,2029.2,True,True,5,2.0,0.0,0.4,,Avenue Harvard,Avenue d'Oxford,79,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G25,B,2029.2,2110.2,True,True,7,5.0,0.0,0.714,,Avenue d'Oxford,Avenue Marcil,81,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G26,B,2110.2,2185.2,True,True,5,4.0,0.0,0.8,,Avenue Marcil,Avenue Old Orchard,75,terrebonne_night
+Rue de Terrebonne,north side,GX014495,2026-10-27T17:29,2026-10-27,G27,B,2185.2,2264.3,True,True,3,2.0,0.0,0.667,,Avenue Old Orchard,Avenue Girouard,29,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G00,A,-89.5,-66.7,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Belmore,7,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G01,A,-66.7,-9.8,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Coronation,57,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G02,A,-9.8,70.2,True,True,5,3.0,0.0,0.6,,Avenue Coronation,Avenue de Mayfair,80,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G03,A,70.2,158.7,True,True,8,2.0,0.0,0.25,,Avenue de Mayfair,Avenue Mariette,89,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G04,A,158.7,244.7,True,True,10,1.0,0.0,0.1,,Avenue Mariette,Avenue Rosedale,86,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G05,A,244.7,331.2,True,True,8,1.0,0.0,0.125,,Avenue Rosedale,Avenue King Edward,86,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G06,A,331.2,423.7,True,True,8,3.0,0.0,0.375,,Avenue King Edward,Avenue Montclair,93,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G07,A,423.7,512.7,True,True,9,6.0,1.0,0.667,,Avenue Montclair,Avenue Walkley,89,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G08,A,512.7,594.2,True,True,5,4.0,0.0,0.8,,Avenue Walkley,Avenue Prince of Wales,81,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G09,A,594.2,668.3,True,True,2,1.0,1.0,0.5,,Avenue Prince of Wales,Avenue Cumberland,74,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G10,A,668.3,743.2,True,True,3,1.0,0.0,0.333,,Avenue Cumberland,Boulevard Cavendish,75,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G11,A,743.2,815.2,True,True,0,2.0,0.0,,,Boulevard Cavendish,Avenue Bessborough,72,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G12,A,815.2,916.8,True,True,8,0.0,0.0,0.0,,Avenue Bessborough,Avenue Benny,102,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G13,A,916.8,1071.7,True,True,16,10.0,1.0,0.625,,Avenue Benny,Avenue Madison,154,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G19,A,1512.7,1605.7,True,True,0,0.0,0.0,,,Avenue de Hampton,Avenue Royal,1,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G20,A,1605.7,1700.7,True,True,4,0.0,0.0,0.0,,Avenue Royal,Avenue Draper,95,terrebonne_night
+Rue de Terrebonne,south side,GX014497,2026-10-28T17:43,2026-10-28,G21,A,1700.7,1790.7,True,True,0,0.0,0.0,,,Avenue Draper,Avenue de Melrose,1,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G13,B,916.8,1071.7,True,True,0,0.0,0.0,,,Avenue Benny,Avenue Madison,1,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G14,B,1071.7,1151.7,True,True,4,4.0,0.0,1.0,,Avenue Madison,Avenue de Kensington,80,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G15,B,1151.7,1243.7,True,True,4,4.0,0.0,1.0,,Avenue de Kensington,Grand Boulevard,92,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G16,B,1243.7,1331.7,True,True,3,4.0,0.0,1.333,,Grand Boulevard,Avenue Beaconsfield,88,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G17,B,1331.7,1412.2,True,True,7,7.0,2.0,1.0,,Avenue Beaconsfield,Avenue Hingston,80,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G18,B,1412.2,1512.7,True,True,5,5.0,0.0,1.0,,Avenue Hingston,Avenue de Hampton,101,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G19,B,1512.7,1605.7,True,True,5,4.0,0.0,0.8,,Avenue de Hampton,Avenue Royal,92,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G21,B,1700.7,1790.7,True,True,4,5.0,0.0,1.25,,Avenue Draper,Avenue de Melrose,89,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G22,B,1790.7,1873.2,True,True,5,2.0,0.0,0.4,,Avenue de Melrose,Avenue Wilson,82,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G23,B,1873.2,1949.7,True,True,4,1.0,0.0,0.25,,Avenue Wilson,Avenue Harvard,77,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G24,B,1949.7,2029.2,True,True,5,2.0,0.0,0.4,,Avenue Harvard,Avenue d'Oxford,79,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G25,B,2029.2,2110.2,True,True,7,2.0,0.0,0.286,,Avenue d'Oxford,Avenue Marcil,81,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G26,B,2110.2,2185.2,True,True,5,3.0,0.0,0.6,,Avenue Marcil,Avenue Old Orchard,75,terrebonne_night
+Rue de Terrebonne,north side,GX014497,2026-10-28T17:43,2026-10-28,G27,B,2185.2,2264.3,True,True,3,3.0,0.0,1.0,,Avenue Old Orchard,Avenue Girouard,29,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G00,A,-89.5,-66.7,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Belmore,7,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G01,A,-66.7,-9.8,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Coronation,57,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G02,A,-9.8,70.2,True,True,5,3.0,0.0,0.6,,Avenue Coronation,Avenue de Mayfair,80,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G03,A,70.2,158.7,True,True,8,3.0,0.0,0.375,,Avenue de Mayfair,Avenue Mariette,89,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G04,A,158.7,244.7,True,True,10,5.0,0.0,0.5,,Avenue Mariette,Avenue Rosedale,86,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G05,A,244.7,331.2,True,True,8,5.0,0.0,0.625,,Avenue Rosedale,Avenue King Edward,86,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G06,A,331.2,423.7,True,True,8,4.0,0.0,0.5,,Avenue King Edward,Avenue Montclair,93,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G07,A,423.7,512.7,True,True,9,6.0,0.0,0.667,,Avenue Montclair,Avenue Walkley,89,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G08,A,512.7,594.2,True,True,5,3.0,0.0,0.6,,Avenue Walkley,Avenue Prince of Wales,81,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G09,A,594.2,668.3,True,True,2,1.0,0.0,0.5,,Avenue Prince of Wales,Avenue Cumberland,74,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G10,A,668.3,743.2,True,True,3,2.0,0.0,0.667,,Avenue Cumberland,Boulevard Cavendish,75,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G11,A,743.2,815.2,True,True,0,1.0,0.0,,,Boulevard Cavendish,Avenue Bessborough,72,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G12,A,815.2,916.8,True,True,8,0.0,0.0,0.0,,Avenue Bessborough,Avenue Benny,102,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G13,A,916.8,1071.7,True,True,16,8.0,0.0,0.5,,Avenue Benny,Avenue Madison,154,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G19,A,1512.7,1605.7,True,True,0,0.0,0.0,,,Avenue de Hampton,Avenue Royal,1,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G20,A,1605.7,1700.7,True,True,4,3.0,0.0,0.75,,Avenue Royal,Avenue Draper,95,terrebonne_night
+Rue de Terrebonne,south side,GX014498,2026-10-29T17:21,2026-10-29,G21,A,1700.7,1790.7,True,True,0,0.0,0.0,,,Avenue Draper,Avenue de Melrose,1,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G13,B,916.8,1071.7,True,True,0,0.0,0.0,,,Avenue Benny,Avenue Madison,1,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G14,B,1071.7,1151.7,True,True,4,3.0,0.0,0.75,,Avenue Madison,Avenue de Kensington,80,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G15,B,1151.7,1243.7,True,True,4,4.0,0.0,1.0,,Avenue de Kensington,Grand Boulevard,92,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G16,B,1243.7,1331.7,True,True,3,3.0,0.0,1.0,,Grand Boulevard,Avenue Beaconsfield,88,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G17,B,1331.7,1412.2,True,True,7,3.0,0.0,0.429,,Avenue Beaconsfield,Avenue Hingston,80,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G18,B,1412.2,1512.7,True,True,5,5.0,0.0,1.0,,Avenue Hingston,Avenue de Hampton,101,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G19,B,1512.7,1605.7,True,True,5,5.0,1.0,1.0,,Avenue de Hampton,Avenue Royal,92,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G21,B,1700.7,1790.7,True,True,4,3.0,0.0,0.75,,Avenue Draper,Avenue de Melrose,89,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G22,B,1790.7,1873.2,True,True,5,2.0,0.0,0.4,,Avenue de Melrose,Avenue Wilson,82,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G23,B,1873.2,1949.7,True,True,4,2.0,0.0,0.5,,Avenue Wilson,Avenue Harvard,77,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G24,B,1949.7,2029.2,True,True,5,3.0,0.0,0.6,,Avenue Harvard,Avenue d'Oxford,79,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G25,B,2029.2,2110.2,True,True,7,5.0,2.0,0.714,,Avenue d'Oxford,Avenue Marcil,81,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G26,B,2110.2,2185.2,True,True,5,4.0,0.0,0.8,,Avenue Marcil,Avenue Old Orchard,75,terrebonne_night
+Rue de Terrebonne,north side,GX014498,2026-10-29T17:21,2026-10-29,G27,B,2185.2,2264.3,True,True,3,3.0,0.0,1.0,,Avenue Old Orchard,Avenue Girouard,29,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G00,A,-89.5,-66.7,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Belmore,7,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G01,A,-66.7,-9.8,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Coronation,57,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G02,A,-9.8,70.2,True,True,5,2.0,0.0,0.4,,Avenue Coronation,Avenue de Mayfair,80,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G03,A,70.2,158.7,True,True,8,2.0,0.0,0.25,,Avenue de Mayfair,Avenue Mariette,89,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G04,A,158.7,244.7,True,True,10,4.0,0.0,0.4,,Avenue Mariette,Avenue Rosedale,86,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G05,A,244.7,331.2,True,True,8,1.0,0.0,0.125,,Avenue Rosedale,Avenue King Edward,86,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G06,A,331.2,423.7,True,True,8,3.0,0.0,0.375,,Avenue King Edward,Avenue Montclair,93,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G07,A,423.7,512.7,True,True,9,8.0,0.0,0.889,,Avenue Montclair,Avenue Walkley,89,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G08,A,512.7,594.2,True,True,5,5.0,0.0,1.0,,Avenue Walkley,Avenue Prince of Wales,81,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G09,A,594.2,668.3,True,True,2,1.0,1.0,0.5,,Avenue Prince of Wales,Avenue Cumberland,74,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G10,A,668.3,743.2,True,True,3,2.0,1.0,0.667,,Avenue Cumberland,Boulevard Cavendish,75,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G11,A,743.2,815.2,True,True,6,0.0,0.0,0.0,,Boulevard Cavendish,Avenue Bessborough,72,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G12,A,815.2,916.8,True,True,8,5.0,2.0,0.625,,Avenue Bessborough,Avenue Benny,102,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G13,A,916.8,1071.7,True,True,16,15.0,1.0,0.938,,Avenue Benny,Avenue Madison,154,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G19,A,1512.7,1605.7,True,True,0,0.0,0.0,,,Avenue de Hampton,Avenue Royal,1,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G20,A,1605.7,1700.7,True,True,8,0.0,0.0,0.0,,Avenue Royal,Avenue Draper,95,terrebonne_night
+Rue de Terrebonne,south side,GX014502,2026-11-05T19:58,2026-11-05,G21,A,1700.7,1790.7,True,True,0,0.0,0.0,,,Avenue Draper,Avenue de Melrose,1,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G13,B,916.8,1071.7,True,True,0,0.0,0.0,,,Avenue Benny,Avenue Madison,1,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G14,B,1071.7,1151.7,True,True,4,3.0,0.0,0.75,,Avenue Madison,Avenue de Kensington,80,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G15,B,1151.7,1243.7,True,True,4,4.0,0.0,1.0,,Avenue de Kensington,Grand Boulevard,92,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G16,B,1243.7,1331.7,True,True,3,5.0,0.0,1.667,,Grand Boulevard,Avenue Beaconsfield,88,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G17,B,1331.7,1412.2,True,True,7,7.0,0.0,1.0,,Avenue Beaconsfield,Avenue Hingston,80,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G18,B,1412.2,1512.7,True,True,5,5.0,0.0,1.0,,Avenue Hingston,Avenue de Hampton,101,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G19,B,1512.7,1605.7,True,True,5,5.0,0.0,1.0,,Avenue de Hampton,Avenue Royal,92,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G21,B,1700.7,1790.7,True,True,4,4.0,1.0,1.0,,Avenue Draper,Avenue de Melrose,89,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G22,B,1790.7,1873.2,True,True,5,3.0,0.0,0.6,,Avenue de Melrose,Avenue Wilson,82,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G23,B,1873.2,1949.7,True,True,4,1.0,0.0,0.25,,Avenue Wilson,Avenue Harvard,77,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G24,B,1949.7,2029.2,True,True,5,3.0,0.0,0.6,,Avenue Harvard,Avenue d'Oxford,79,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G25,B,2029.2,2110.2,True,True,7,7.0,1.0,1.0,,Avenue d'Oxford,Avenue Marcil,81,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G26,B,2110.2,2185.2,True,True,5,5.0,0.0,1.0,,Avenue Marcil,Avenue Old Orchard,75,terrebonne_night
+Rue de Terrebonne,north side,GX014502,2026-11-05T19:58,2026-11-05,G27,B,2185.2,2264.3,True,True,3,3.0,0.0,1.0,,Avenue Old Orchard,Avenue Girouard,29,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G00,A,-89.5,-66.7,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Belmore,7,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G01,A,-66.7,-9.8,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Coronation,57,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G02,A,-9.8,70.2,True,True,5,2.0,0.0,0.4,,Avenue Coronation,Avenue de Mayfair,80,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G03,A,70.2,158.7,True,True,8,2.0,0.0,0.25,,Avenue de Mayfair,Avenue Mariette,89,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G04,A,158.7,244.7,True,True,10,2.0,0.0,0.2,,Avenue Mariette,Avenue Rosedale,86,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G05,A,244.7,331.2,True,True,8,1.0,0.0,0.125,,Avenue Rosedale,Avenue King Edward,86,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G06,A,331.2,423.7,True,True,8,4.0,0.0,0.5,,Avenue King Edward,Avenue Montclair,93,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G07,A,423.7,512.7,True,True,9,9.0,0.0,1.0,,Avenue Montclair,Avenue Walkley,89,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G08,A,512.7,594.2,True,True,5,3.0,0.0,0.6,,Avenue Walkley,Avenue Prince of Wales,81,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G09,A,594.2,668.3,True,True,2,3.0,1.0,1.5,,Avenue Prince of Wales,Avenue Cumberland,74,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G10,A,668.3,743.2,True,True,3,2.0,0.0,0.667,,Avenue Cumberland,Boulevard Cavendish,75,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G11,A,743.2,815.2,True,True,6,0.0,0.0,0.0,,Boulevard Cavendish,Avenue Bessborough,72,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G12,A,815.2,916.8,True,True,8,2.0,1.0,0.25,,Avenue Bessborough,Avenue Benny,102,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G13,A,916.8,1071.7,True,True,16,12.0,0.0,0.75,,Avenue Benny,Avenue Madison,154,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G19,A,1512.7,1605.7,True,True,0,0.0,0.0,,,Avenue de Hampton,Avenue Royal,1,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G20,A,1605.7,1700.7,True,True,8,0.0,0.0,0.0,,Avenue Royal,Avenue Draper,95,terrebonne_night
+Rue de Terrebonne,south side,GX014504,2026-11-10T20:17,2026-11-10,G21,A,1700.7,1790.7,True,True,0,0.0,0.0,,,Avenue Draper,Avenue de Melrose,1,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G13,B,916.8,1071.7,True,True,0,0.0,0.0,,,Avenue Benny,Avenue Madison,1,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G14,B,1071.7,1151.7,True,True,4,3.0,0.0,0.75,,Avenue Madison,Avenue de Kensington,80,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G15,B,1151.7,1243.7,True,True,4,4.0,0.0,1.0,,Avenue de Kensington,Grand Boulevard,92,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G16,B,1243.7,1331.7,True,True,3,5.0,0.0,1.667,,Grand Boulevard,Avenue Beaconsfield,88,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G17,B,1331.7,1412.2,True,True,7,7.0,0.0,1.0,,Avenue Beaconsfield,Avenue Hingston,80,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G18,B,1412.2,1512.7,True,True,5,1.0,0.0,0.2,,Avenue Hingston,Avenue de Hampton,101,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G19,B,1512.7,1605.7,True,True,5,2.0,0.0,0.4,,Avenue de Hampton,Avenue Royal,92,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G21,B,1700.7,1790.7,True,True,4,4.0,1.0,1.0,,Avenue Draper,Avenue de Melrose,89,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G22,B,1790.7,1873.2,True,True,5,3.0,0.0,0.6,,Avenue de Melrose,Avenue Wilson,82,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G23,B,1873.2,1949.7,True,True,4,3.0,0.0,0.75,,Avenue Wilson,Avenue Harvard,77,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G24,B,1949.7,2029.2,True,True,5,4.0,0.0,0.8,,Avenue Harvard,Avenue d'Oxford,79,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G25,B,2029.2,2110.2,True,True,7,2.0,0.0,0.286,,Avenue d'Oxford,Avenue Marcil,81,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G26,B,2110.2,2185.2,True,True,5,5.0,0.0,1.0,,Avenue Marcil,Avenue Old Orchard,75,terrebonne_night
+Rue de Terrebonne,north side,GX014504,2026-11-10T20:17,2026-11-10,G27,B,2185.2,2264.3,True,True,3,3.0,0.0,1.0,,Avenue Old Orchard,Avenue Girouard,29,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G00,A,-89.5,-66.7,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Belmore,7,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G01,A,-66.7,-9.8,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Coronation,57,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G02,A,-9.8,70.2,True,True,5,3.0,1.0,0.6,,Avenue Coronation,Avenue de Mayfair,80,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G03,A,70.2,158.7,True,True,8,2.0,0.0,0.25,,Avenue de Mayfair,Avenue Mariette,89,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G04,A,158.7,244.7,True,True,10,3.0,0.0,0.3,,Avenue Mariette,Avenue Rosedale,86,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G05,A,244.7,331.2,True,True,8,1.0,0.0,0.125,,Avenue Rosedale,Avenue King Edward,86,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G06,A,331.2,423.7,True,True,8,2.0,0.0,0.25,,Avenue King Edward,Avenue Montclair,93,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G07,A,423.7,512.7,True,True,9,10.0,0.0,1.111,,Avenue Montclair,Avenue Walkley,89,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G08,A,512.7,594.2,True,True,5,4.0,0.0,0.8,,Avenue Walkley,Avenue Prince of Wales,81,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G09,A,594.2,668.3,True,True,2,3.0,2.0,1.5,,Avenue Prince of Wales,Avenue Cumberland,74,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G10,A,668.3,743.2,True,True,3,4.0,1.0,1.333,,Avenue Cumberland,Boulevard Cavendish,75,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G11,A,743.2,815.2,True,True,6,0.0,0.0,0.0,,Boulevard Cavendish,Avenue Bessborough,72,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G12,A,815.2,916.8,True,True,8,1.0,1.0,0.125,,Avenue Bessborough,Avenue Benny,102,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G13,A,916.8,1071.7,True,True,16,11.0,0.0,0.688,,Avenue Benny,Avenue Madison,154,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G19,A,1512.7,1605.7,True,True,0,0.0,0.0,,,Avenue de Hampton,Avenue Royal,1,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G20,A,1605.7,1700.7,True,True,8,0.0,0.0,0.0,,Avenue Royal,Avenue Draper,95,terrebonne_night
+Rue de Terrebonne,south side,GX014506,2026-11-11T20:25,2026-11-11,G21,A,1700.7,1790.7,True,True,0,0.0,0.0,,,Avenue Draper,Avenue de Melrose,1,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G13,B,916.8,1071.7,True,True,0,0.0,0.0,,,Avenue Benny,Avenue Madison,1,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G14,B,1071.7,1151.7,True,True,4,5.0,0.0,1.25,,Avenue Madison,Avenue de Kensington,80,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G15,B,1151.7,1243.7,True,True,4,4.0,0.0,1.0,,Avenue de Kensington,Grand Boulevard,92,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G16,B,1243.7,1331.7,True,True,3,5.0,0.0,1.667,,Grand Boulevard,Avenue Beaconsfield,88,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G17,B,1331.7,1412.2,True,True,7,6.0,0.0,0.857,,Avenue Beaconsfield,Avenue Hingston,80,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G18,B,1412.2,1512.7,True,True,5,4.0,0.0,0.8,,Avenue Hingston,Avenue de Hampton,101,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G19,B,1512.7,1605.7,True,True,5,5.0,0.0,1.0,,Avenue de Hampton,Avenue Royal,92,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G21,B,1700.7,1790.7,True,True,4,3.0,1.0,0.75,,Avenue Draper,Avenue de Melrose,89,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G22,B,1790.7,1873.2,True,True,5,1.0,0.0,0.2,,Avenue de Melrose,Avenue Wilson,82,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G23,B,1873.2,1949.7,True,True,4,4.0,0.0,1.0,,Avenue Wilson,Avenue Harvard,77,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G24,B,1949.7,2029.2,True,True,5,4.0,0.0,0.8,,Avenue Harvard,Avenue d'Oxford,79,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G25,B,2029.2,2110.2,True,True,7,2.0,1.0,0.286,,Avenue d'Oxford,Avenue Marcil,81,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G26,B,2110.2,2185.2,True,True,5,3.0,0.0,0.6,,Avenue Marcil,Avenue Old Orchard,75,terrebonne_night
+Rue de Terrebonne,north side,GX014506,2026-11-11T20:25,2026-11-11,G27,B,2185.2,2264.3,True,True,3,3.0,0.0,1.0,,Avenue Old Orchard,Avenue Girouard,29,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G00,A,-89.5,-66.7,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Belmore,7,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G01,A,-66.7,-9.8,True,True,0,0.0,0.0,,,Avenue Belmore,Avenue Coronation,57,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G02,A,-9.8,70.2,True,True,5,3.0,1.0,0.6,,Avenue Coronation,Avenue de Mayfair,80,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G03,A,70.2,158.7,True,True,8,1.0,0.0,0.125,,Avenue de Mayfair,Avenue Mariette,89,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G04,A,158.7,244.7,True,True,10,2.0,0.0,0.2,,Avenue Mariette,Avenue Rosedale,86,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G05,A,244.7,331.2,True,True,8,1.0,0.0,0.125,,Avenue Rosedale,Avenue King Edward,86,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G06,A,331.2,423.7,True,True,8,5.0,0.0,0.625,,Avenue King Edward,Avenue Montclair,93,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G07,A,423.7,512.7,True,True,9,11.0,0.0,1.222,,Avenue Montclair,Avenue Walkley,89,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G08,A,512.7,594.2,True,True,5,4.0,0.0,0.8,,Avenue Walkley,Avenue Prince of Wales,81,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G09,A,594.2,668.3,True,True,2,1.0,1.0,0.5,,Avenue Prince of Wales,Avenue Cumberland,74,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G10,A,668.3,743.2,True,True,3,2.0,0.0,0.667,,Avenue Cumberland,Boulevard Cavendish,75,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G11,A,743.2,815.2,True,True,6,1.0,0.0,0.167,,Boulevard Cavendish,Avenue Bessborough,72,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G12,A,815.2,916.8,True,True,8,0.0,0.0,0.0,,Avenue Bessborough,Avenue Benny,102,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G13,A,916.8,1071.7,True,True,16,9.0,0.0,0.562,,Avenue Benny,Avenue Madison,154,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G19,A,1512.7,1605.7,True,True,0,0.0,0.0,,,Avenue de Hampton,Avenue Royal,1,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G20,A,1605.7,1700.7,True,True,8,0.0,0.0,0.0,,Avenue Royal,Avenue Draper,95,terrebonne_night
+Rue de Terrebonne,south side,GX014511,2026-11-12T20:46,2026-11-12,G21,A,1700.7,1790.7,True,True,0,0.0,0.0,,,Avenue Draper,Avenue de Melrose,1,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G13,B,916.8,1071.7,True,True,0,0.0,0.0,,,Avenue Benny,Avenue Madison,1,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G14,B,1071.7,1151.7,True,True,4,4.0,0.0,1.0,,Avenue Madison,Avenue de Kensington,80,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G15,B,1151.7,1243.7,True,True,4,4.0,0.0,1.0,,Avenue de Kensington,Grand Boulevard,92,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G16,B,1243.7,1331.7,True,True,3,5.0,0.0,1.667,,Grand Boulevard,Avenue Beaconsfield,88,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G17,B,1331.7,1412.2,True,True,7,7.0,0.0,1.0,,Avenue Beaconsfield,Avenue Hingston,80,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G18,B,1412.2,1512.7,True,True,5,5.0,0.0,1.0,,Avenue Hingston,Avenue de Hampton,101,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G19,B,1512.7,1605.7,True,True,5,4.0,0.0,0.8,,Avenue de Hampton,Avenue Royal,92,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G21,B,1700.7,1790.7,True,True,4,3.0,1.0,0.75,,Avenue Draper,Avenue de Melrose,89,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G22,B,1790.7,1873.2,True,True,5,4.0,0.0,0.8,,Avenue de Melrose,Avenue Wilson,82,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G23,B,1873.2,1949.7,True,True,4,2.0,0.0,0.5,,Avenue Wilson,Avenue Harvard,77,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G24,B,1949.7,2029.2,True,True,5,4.0,0.0,0.8,,Avenue Harvard,Avenue d'Oxford,79,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G25,B,2029.2,2110.2,True,True,7,3.0,0.0,0.429,,Avenue d'Oxford,Avenue Marcil,81,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G26,B,2110.2,2185.2,True,True,5,5.0,0.0,1.0,,Avenue Marcil,Avenue Old Orchard,75,terrebonne_night
+Rue de Terrebonne,north side,GX014511,2026-11-12T20:46,2026-11-12,G27,B,2185.2,2264.3,True,True,3,3.0,0.0,1.0,,Avenue Old Orchard,Avenue Girouard,29,terrebonne_night
+Avenue Wilson,east side,GX014487,2026-10-26T17:48,2026-10-26,G01,L,-3.7,256.3,False,True,27,,,,0.0,Avenue Somerled,Rue de Terrebonne,260,wilson
+Avenue Wilson,east side,GX014487,2026-10-26T17:48,2026-10-26,G02,L,256.3,554.3,False,True,28,,,,28.0,Rue de Terrebonne,Avenue de Monkland,289,wilson
+Avenue Wilson,east side,GX014499,2026-10-29T17:31,2026-10-29,G01,L,-3.7,256.3,False,True,27,,,,0.0,Avenue Somerled,Rue de Terrebonne,260,wilson
+Avenue Wilson,east side,GX014499,2026-10-29T17:31,2026-10-29,G02,L,256.3,554.3,True,True,28,24.0,4.0,0.857,,Rue de Terrebonne,Avenue de Monkland,289,wilson
+Avenue Wilson,east side,GX014503,2026-11-10T20:12,2026-11-10,G01,L,-3.7,256.3,True,True,27,22.0,1.0,0.815,,Avenue Somerled,Rue de Terrebonne,260,wilson
+Avenue Wilson,east side,GX014503,2026-11-10T20:12,2026-11-10,G02,L,256.3,554.3,True,True,29,26.0,4.0,0.897,,Rue de Terrebonne,Avenue de Monkland,289,wilson
+Avenue Wilson,east side,GX014505,2026-11-11T20:21,2026-11-11,G01,L,-3.7,256.3,True,True,27,13.0,2.0,0.481,,Avenue Somerled,Rue de Terrebonne,260,wilson
+Avenue Wilson,east side,GX014505,2026-11-11T20:21,2026-11-11,G02,L,256.3,554.3,True,True,29,22.0,1.0,0.759,,Rue de Terrebonne,Avenue de Monkland,289,wilson
+Avenue Wilson,east side,GX014510,2026-11-12T20:42,2026-11-12,G01,L,-3.7,256.3,True,True,27,19.0,0.0,0.704,,Avenue Somerled,Rue de Terrebonne,260,wilson
+Avenue Wilson,east side,GX014510,2026-11-12T20:42,2026-11-12,G02,L,256.3,554.3,True,True,29,25.0,4.0,0.862,,Rue de Terrebonne,Avenue de Monkland,289,wilson
+Avenue Draper,east side,GX014488,2026-10-26T17:52,2026-10-26,G00,L,-30.1,-11.2,False,True,1,,,,0.0,,Avenue Somerled,18,draper
+Avenue Draper,east side,GX014488,2026-10-26T17:52,2026-10-26,G01,L,-11.2,249.3,True,True,31,19.0,0.0,0.613,,Avenue Somerled,Rue de Terrebonne,261,draper
+Avenue Draper,east side,GX014488,2026-10-26T17:52,2026-10-26,G02,L,249.3,545.7,True,True,34,24.0,0.0,0.706,,Rue de Terrebonne,Avenue de Monkland,279,draper
+Avenue Draper,east side,GX014496,2026-10-28T17:31,2026-10-28,G00,L,-30.1,-11.2,True,True,1,0.0,0.0,0.0,,,Avenue Somerled,18,draper
+Avenue Draper,east side,GX014496,2026-10-28T17:31,2026-10-28,G01,L,-11.2,249.3,True,True,31,22.0,0.0,0.71,,Avenue Somerled,Rue de Terrebonne,261,draper
+Avenue Draper,east side,GX014496,2026-10-28T17:31,2026-10-28,G02,L,249.3,545.7,True,True,34,18.0,1.0,0.529,,Rue de Terrebonne,Avenue de Monkland,279,draper
+Avenue Draper,east side,GX014499,2026-10-29T17:34,2026-10-29,G00,L,-30.1,-11.2,True,True,1,0.0,0.0,0.0,,,Avenue Somerled,18,draper
+Avenue Draper,east side,GX014499,2026-10-29T17:34,2026-10-29,G01,L,-11.2,249.3,True,True,31,14.0,0.0,0.452,,Avenue Somerled,Rue de Terrebonne,261,draper
+Avenue Draper,east side,GX014499,2026-10-29T17:34,2026-10-29,G02,L,249.3,545.7,True,True,34,24.0,1.0,0.706,,Rue de Terrebonne,Avenue de Monkland,279,draper
+Avenue Royal,west side,GX014489,2026-10-26T17:54,2026-10-26,G01,L,2.3,297.7,True,True,31,27.0,8.0,0.871,,Avenue de Monkland,Rue de Terrebonne,295,royal
+Avenue Royal,west side,GX014489,2026-10-26T17:54,2026-10-26,G02,L,297.7,557.3,True,True,22,18.0,1.0,0.818,,Rue de Terrebonne,Avenue Somerled,256,royal
+Avenue Royal,west side,GX014496,2026-10-28T17:33,2026-10-28,G01,L,2.3,297.7,True,True,31,14.0,3.0,0.452,,Avenue de Monkland,Rue de Terrebonne,295,royal
+Avenue Royal,west side,GX014496,2026-10-28T17:33,2026-10-28,G02,L,297.7,557.3,True,True,22,17.0,1.0,0.773,,Rue de Terrebonne,Avenue Somerled,256,royal
+Avenue Royal,west side,GX014499,2026-10-29T17:36,2026-10-29,G01,L,2.3,297.7,True,True,31,20.0,4.0,0.645,,Avenue de Monkland,Rue de Terrebonne,295,royal
+Avenue Royal,west side,GX014499,2026-10-29T17:36,2026-10-29,G02,L,297.7,557.3,True,True,22,19.0,1.0,0.864,,Rue de Terrebonne,Avenue Somerled,256,royal
+Avenue Royal,west side,GX014503,2026-11-10T20:10,2026-11-10,G01,L,2.3,297.7,True,True,43,16.0,2.0,0.372,,Avenue de Monkland,Rue de Terrebonne,295,royal
+Avenue Royal,west side,GX014503,2026-11-10T20:10,2026-11-10,G02,L,297.7,557.3,True,True,22,21.0,2.0,0.955,,Rue de Terrebonne,Avenue Somerled,256,royal
+Avenue Royal,west side,GX014505,2026-11-11T20:19,2026-11-11,G01,L,2.3,297.7,True,True,43,17.0,2.0,0.395,,Avenue de Monkland,Rue de Terrebonne,295,royal
+Avenue Royal,west side,GX014505,2026-11-11T20:19,2026-11-11,G02,L,297.7,557.3,True,True,22,17.0,1.0,0.773,,Rue de Terrebonne,Avenue Somerled,256,royal
+Avenue Royal,west side,GX014510,2026-11-12T20:40,2026-11-12,G01,L,2.3,297.7,True,True,43,19.0,2.0,0.442,,Avenue de Monkland,Rue de Terrebonne,295,royal
+Avenue Royal,west side,GX014510,2026-11-12T20:40,2026-11-12,G02,L,297.7,557.3,True,True,22,20.0,2.0,0.909,,Rue de Terrebonne,Avenue Somerled,256,royal
+Avenue de Hampton,east side,GX014490,2026-10-26T17:56,2026-10-26,G01,L,-13.5,248.6,False,True,30,,,,18.0,Avenue Somerled,Rue de Terrebonne,262,hampton
+Avenue de Hampton,east side,GX014490,2026-10-26T17:56,2026-10-26,G02,L,248.6,542.8,False,True,40,,,,31.0,Rue de Terrebonne,Avenue de Monkland,284,hampton
+Avenue de Hampton,east side,GX014496,2026-10-28T17:35,2026-10-28,G01,L,-13.5,248.6,True,True,30,13.0,1.0,0.433,,Avenue Somerled,Rue de Terrebonne,262,hampton
+Avenue de Hampton,east side,GX014496,2026-10-28T17:35,2026-10-28,G02,L,248.6,542.8,True,True,40,22.0,3.0,0.55,,Rue de Terrebonne,Avenue de Monkland,284,hampton
+Avenue de Hampton,east side,GX014499,2026-10-29T17:38,2026-10-29,G01,L,-13.5,248.6,True,True,30,19.0,0.0,0.633,,Avenue Somerled,Rue de Terrebonne,262,hampton
+Avenue de Hampton,east side,GX014499,2026-10-29T17:38,2026-10-29,G02,L,248.6,542.8,True,True,40,22.0,1.0,0.55,,Rue de Terrebonne,Avenue de Monkland,284,hampton
+Avenue Hingston,west side,GX014491,2026-10-26T17:59,2026-10-26,G00,L,-17.9,276.1,False,True,32,,,,25.0,Avenue de Monkland,Rue de Terrebonne,290,hingston
+Avenue Hingston,west side,GX014491,2026-10-26T17:59,2026-10-26,G01,L,276.1,535.7,True,True,27,19.0,0.0,0.704,,Rue de Terrebonne,Avenue Somerled,259,hingston
+Avenue Hingston,west side,GX014496,2026-10-28T17:37,2026-10-28,G00,L,-17.9,276.1,True,True,32,14.0,1.0,0.438,,Avenue de Monkland,Rue de Terrebonne,290,hingston
+Avenue Hingston,west side,GX014496,2026-10-28T17:37,2026-10-28,G01,L,276.1,535.7,True,True,27,16.0,0.0,0.593,,Rue de Terrebonne,Avenue Somerled,259,hingston
+Avenue Hingston,west side,GX014499,2026-10-29T17:40,2026-10-29,G00,L,-17.9,276.1,True,True,32,23.0,2.0,0.719,,Avenue de Monkland,Rue de Terrebonne,290,hingston
+Avenue Hingston,west side,GX014499,2026-10-29T17:40,2026-10-29,G01,L,276.1,535.7,True,True,27,23.0,1.0,0.852,,Rue de Terrebonne,Avenue Somerled,259,hingston
+Avenue Beaconsfield,east side,GX014492,2026-10-26T18:01,2026-10-26,G01,L,-0.5,254.7,True,True,23,20.0,0.0,0.87,,Avenue Somerled,Rue de Terrebonne,256,beaconsfield
+Avenue Beaconsfield,east side,GX014492,2026-10-26T18:01,2026-10-26,G02,L,254.7,552.2,False,True,39,,,,0.0,Rue de Terrebonne,Avenue de Monkland,290,beaconsfield
+Avenue Beaconsfield,east side,GX014496,2026-10-28T17:39,2026-10-28,G01,L,-0.5,254.7,True,True,23,12.0,2.0,0.522,,Avenue Somerled,Rue de Terrebonne,256,beaconsfield
+Avenue Beaconsfield,east side,GX014496,2026-10-28T17:39,2026-10-28,G02,L,254.7,552.2,False,True,39,,,,0.0,Rue de Terrebonne,Avenue de Monkland,290,beaconsfield
+Avenue Beaconsfield,east side,GX014499,2026-10-29T17:42,2026-10-29,G01,L,-0.5,254.7,True,True,23,16.0,0.0,0.696,,Avenue Somerled,Rue de Terrebonne,256,beaconsfield
+Avenue Beaconsfield,east side,GX014499,2026-10-29T17:42,2026-10-29,G02,L,254.7,552.2,False,True,39,,,,0.0,Rue de Terrebonne,Avenue de Monkland,290,beaconsfield
+Avenue Beaconsfield,east side,GX014503,2026-11-10T20:08,2026-11-10,G01,L,-0.5,254.7,True,True,23,17.0,1.0,0.739,,Avenue Somerled,Rue de Terrebonne,256,beaconsfield
+Avenue Beaconsfield,east side,GX014503,2026-11-10T20:08,2026-11-10,G02,L,254.7,552.2,True,True,39,26.0,0.0,0.667,,Rue de Terrebonne,Avenue de Monkland,290,beaconsfield
+Avenue Beaconsfield,east side,GX014505,2026-11-11T20:16,2026-11-11,G01,L,-0.5,254.7,True,True,23,16.0,1.0,0.696,,Avenue Somerled,Rue de Terrebonne,256,beaconsfield
+Avenue Beaconsfield,east side,GX014505,2026-11-11T20:16,2026-11-11,G02,L,254.7,552.2,True,True,39,28.0,1.0,0.718,,Rue de Terrebonne,Avenue de Monkland,290,beaconsfield
+Avenue Beaconsfield,east side,GX014510,2026-11-12T20:37,2026-11-12,G01,L,-0.5,254.7,True,True,23,18.0,1.0,0.783,,Avenue Somerled,Rue de Terrebonne,256,beaconsfield
+Avenue Beaconsfield,east side,GX014510,2026-11-12T20:37,2026-11-12,G02,L,254.7,552.2,True,True,39,28.0,1.0,0.718,,Rue de Terrebonne,Avenue de Monkland,290,beaconsfield
+Avenue de Melrose,west side,GX014496,2026-10-28T17:29,2026-10-28,G00,L,-0.4,12.1,True,True,0,0.0,0.0,,,,Avenue de Monkland,13,melrose
+Avenue de Melrose,west side,GX014496,2026-10-28T17:29,2026-10-28,G01,L,12.1,305.1,True,True,38,29.0,0.0,0.763,,Avenue de Monkland,Rue de Terrebonne,293,melrose
+Avenue de Melrose,west side,GX014496,2026-10-28T17:29,2026-10-28,G02,L,305.1,569.0,True,True,28,15.0,0.0,0.536,,Rue de Terrebonne,Avenue Somerled,253,melrose
+Avenue de Melrose,west side,GX014499,2026-10-29T17:32,2026-10-29,G00,L,-0.4,12.1,True,True,0,0.0,0.0,,,,Avenue de Monkland,13,melrose
+Avenue de Melrose,west side,GX014499,2026-10-29T17:32,2026-10-29,G01,L,12.1,305.1,True,True,38,33.0,0.0,0.868,,Avenue de Monkland,Rue de Terrebonne,293,melrose
+Avenue de Melrose,west side,GX014499,2026-10-29T17:32,2026-10-29,G02,L,305.1,569.0,True,True,28,21.0,1.0,0.75,,Rue de Terrebonne,Avenue Somerled,253,melrose
+Avenue Madison,west side,GX014503,2026-11-10T20:05,2026-11-10,G01,L,6.4,289.2,True,True,31,13.0,0.0,0.419,,Avenue de Monkland,Rue de Terrebonne,283,madison
+Avenue Madison,west side,GX014503,2026-11-10T20:05,2026-11-10,G02,L,289.2,548.7,True,True,30,11.0,1.0,0.367,,Rue de Terrebonne,Avenue Somerled,252,madison
+Avenue Madison,west side,GX014505,2026-11-11T20:13,2026-11-11,G01,L,6.4,289.2,True,True,31,19.0,0.0,0.613,,Avenue de Monkland,Rue de Terrebonne,283,madison
+Avenue Madison,west side,GX014505,2026-11-11T20:13,2026-11-11,G02,L,289.2,548.7,True,True,30,17.0,1.0,0.567,,Rue de Terrebonne,Avenue Somerled,252,madison
+Avenue Madison,west side,GX014510,2026-11-12T20:34,2026-11-12,G01,L,6.4,289.2,True,True,31,18.0,0.0,0.581,,Avenue de Monkland,Rue de Terrebonne,283,madison
+Avenue Madison,west side,GX014510,2026-11-12T20:34,2026-11-12,G02,L,289.2,548.7,True,True,30,20.0,1.0,0.667,,Rue de Terrebonne,Avenue Somerled,252,madison
+Avenue Prince of Wales,east side,GX014503,2026-11-10T20:01,2026-11-10,G01,L,-6.3,258.2,True,True,30,16.0,1.0,0.533,,Avenue Somerled,Rue de Terrebonne,264,prince_of_wales
+Avenue Prince of Wales,east side,GX014503,2026-11-10T20:01,2026-11-10,G02,L,258.2,327.4,True,True,8,4.0,0.0,0.5,,Rue de Terrebonne,Rue Starnes,70,prince_of_wales
+Avenue Prince of Wales,east side,GX014503,2026-11-10T20:01,2026-11-10,G03,L,327.4,398.9,True,True,7,2.0,0.0,0.286,,Rue Starnes,Rue Duncan,71,prince_of_wales
+Avenue Prince of Wales,east side,GX014503,2026-11-10T20:01,2026-11-10,G04,L,398.9,470.8,True,True,9,4.0,0.0,0.444,,Rue Duncan,Rue Cassidy,72,prince_of_wales
+Avenue Prince of Wales,east side,GX014503,2026-11-10T20:01,2026-11-10,G05,L,470.8,542.8,True,True,7,4.0,1.0,0.571,,Rue Cassidy,Avenue de Monkland,72,prince_of_wales
+Avenue Prince of Wales,east side,GX014505,2026-11-11T20:10,2026-11-11,G01,L,-6.3,258.2,True,True,30,20.0,0.0,0.667,,Avenue Somerled,Rue de Terrebonne,264,prince_of_wales
+Avenue Prince of Wales,east side,GX014505,2026-11-11T20:10,2026-11-11,G02,L,258.2,327.4,True,True,8,6.0,0.0,0.75,,Rue de Terrebonne,Rue Starnes,70,prince_of_wales
+Avenue Prince of Wales,east side,GX014505,2026-11-11T20:10,2026-11-11,G03,L,327.4,398.9,True,True,7,4.0,0.0,0.571,,Rue Starnes,Rue Duncan,71,prince_of_wales
+Avenue Prince of Wales,east side,GX014505,2026-11-11T20:10,2026-11-11,G04,L,398.9,470.8,True,True,9,7.0,1.0,0.778,,Rue Duncan,Rue Cassidy,72,prince_of_wales
+Avenue Prince of Wales,east side,GX014505,2026-11-11T20:10,2026-11-11,G05,L,470.8,542.8,True,True,7,5.0,0.0,0.714,,Rue Cassidy,Avenue de Monkland,72,prince_of_wales
+Avenue Prince of Wales,east side,GX014510,2026-11-12T20:30,2026-11-12,G01,L,-6.3,258.2,True,True,30,20.0,1.0,0.667,,Avenue Somerled,Rue de Terrebonne,264,prince_of_wales
+Avenue Prince of Wales,east side,GX014510,2026-11-12T20:30,2026-11-12,G02,L,258.2,327.4,True,True,8,6.0,0.0,0.75,,Rue de Terrebonne,Rue Starnes,70,prince_of_wales
+Avenue Prince of Wales,east side,GX014510,2026-11-12T20:30,2026-11-12,G03,L,327.4,398.9,True,True,7,4.0,0.0,0.571,,Rue Starnes,Rue Duncan,71,prince_of_wales
+Avenue Prince of Wales,east side,GX014510,2026-11-12T20:30,2026-11-12,G04,L,398.9,470.8,True,True,9,4.0,0.0,0.444,,Rue Duncan,Rue Cassidy,72,prince_of_wales
+Avenue Prince of Wales,east side,GX014510,2026-11-12T20:30,2026-11-12,G05,L,470.8,542.8,True,True,7,3.0,1.0,0.429,,Rue Cassidy,Avenue de Monkland,72,prince_of_wales
+Avenue King Edward,west side,GX014503,2026-11-10T19:59,2026-11-10,G00,L,-7.9,5.1,True,True,0,0.0,0.0,,,,Avenue de Monkland,13,king_edward
+Avenue King Edward,west side,GX014503,2026-11-10T19:59,2026-11-10,G01,L,5.1,285.9,True,True,32,12.0,0.0,0.375,,Avenue de Monkland,Rue de Terrebonne,280,king_edward
+Avenue King Edward,west side,GX014503,2026-11-10T19:59,2026-11-10,G02,L,285.9,544.3,True,True,32,2.0,0.0,0.062,,Rue de Terrebonne,Avenue Somerled,253,king_edward
+Avenue King Edward,west side,GX014505,2026-11-11T20:08,2026-11-11,G00,L,-7.9,5.1,True,True,0,0.0,0.0,,,,Avenue de Monkland,13,king_edward
+Avenue King Edward,west side,GX014505,2026-11-11T20:08,2026-11-11,G01,L,5.1,285.9,True,True,32,15.0,2.0,0.469,,Avenue de Monkland,Rue de Terrebonne,280,king_edward
+Avenue King Edward,west side,GX014505,2026-11-11T20:08,2026-11-11,G02,L,285.9,544.3,False,True,32,,,,9.0,Rue de Terrebonne,Avenue Somerled,253,king_edward
+Avenue King Edward,west side,GX014510,2026-11-12T20:28,2026-11-12,G00,L,-7.9,5.1,True,True,0,0.0,0.0,,,,Avenue de Monkland,13,king_edward
+Avenue King Edward,west side,GX014510,2026-11-12T20:28,2026-11-12,G01,L,5.1,285.9,True,True,32,13.0,1.0,0.406,,Avenue de Monkland,Rue de Terrebonne,280,king_edward
+Avenue King Edward,west side,GX014510,2026-11-12T20:28,2026-11-12,G02,L,285.9,544.3,True,True,32,9.0,0.0,0.281,,Rue de Terrebonne,Avenue Somerled,253,king_edward
+Avenue de Mayfair,east side,GX014503,2026-11-10T19:57,2026-11-10,G01,L,-0.1,258.9,True,True,32,7.0,0.0,0.219,,Avenue Somerled,Rue de Terrebonne,259,mayfair
+Avenue de Mayfair,east side,GX014503,2026-11-10T19:57,2026-11-10,G02,L,258.9,529.6,True,True,36,15.0,0.0,0.417,,Rue de Terrebonne,Avenue de Monkland,271,mayfair
+Avenue de Mayfair,east side,GX014505,2026-11-11T20:05,2026-11-11,G01,L,-0.1,258.9,True,True,32,5.0,0.0,0.156,,Avenue Somerled,Rue de Terrebonne,259,mayfair
+Avenue de Mayfair,east side,GX014505,2026-11-11T20:05,2026-11-11,G02,L,258.9,529.6,True,True,36,10.0,0.0,0.278,,Rue de Terrebonne,Avenue de Monkland,271,mayfair
+Avenue de Mayfair,east side,GX014510,2026-11-12T20:25,2026-11-12,G01,L,-0.1,258.9,True,True,32,7.0,0.0,0.219,,Avenue Somerled,Rue de Terrebonne,259,mayfair
+Avenue de Mayfair,east side,GX014510,2026-11-12T20:25,2026-11-12,G02,L,258.9,529.6,True,True,36,12.0,2.0,0.333,,Rue de Terrebonne,Avenue de Monkland,271,mayfair
