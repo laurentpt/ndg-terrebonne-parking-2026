@@ -7,7 +7,8 @@ October and November 2026. The software that produced it is in a separate reposi
 
 [code]: https://github.com/laurentpt/curb-occupancy
 
-**Map:** [`index.html`](index.html) (English / français).
+**Map:** <https://laurentpt.github.io/ndg-terrebonne-parking-2026/> (English / français; the page
+is [`index.html`](index.html) in this repository).
 
 ## Method in brief
 
